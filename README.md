@@ -1,2 +1,2 @@
 # gamepatches-blog
-Blog with notes, news, old histories of game modding adventures.
+Blog with notes, news, old histories of game code hack.
