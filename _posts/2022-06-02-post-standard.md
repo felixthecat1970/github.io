@@ -1,13 +1,12 @@
 ---
+classes: wide
 title: "lets start with PS2 Assault Suits Valken Game Enhacements"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
   - PS2
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - PS2
 ---
 
 Assault Suits Valken and (重装機兵ヴァルケン) for playstation 2 console, only released in Japan and Europe, here you will find codes for disable the interleaced function, enable disabled modes for 480p progressive scan display mode and recomended profiles for PC emualtor PCX2-QT.
@@ -16,9 +15,11 @@ More info about game: [Wikipedia](https://en.wikipedia.org/wiki/Assault_Suits_Va
 
 <!--more-->
 
-Assault Suits Valken (Europe)  |     重装機兵ヴァルケン (Japan)
+![alt](https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/felixthecat.png)
+
+<!--![]Assault Suits Valken (Europe)  |     重装機兵ヴァルケン (Japan)
 :-----------------------------:|:-----------------------------:
-![](https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/asv-eu.jpg)  |  ![](https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/asv-jp.jpg)
+(https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/asv-eu.jpg)  |  ![](https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/asv-jp.jpg)-->
 
 ## Before start ....
 Almost 2+ years withow Job and looking something to keep me thinking i decide to organize my old reverse enginnering codes of games i did last years and some i published in PCSX2 forums last year, returning after a year looking now thread and new advances in PCSX2 pc emulator, the people are active with new codes, hacks etc, and me lurking there to post something (also i have to train my mind because boredom and no stable jobs are killing me) happen to find about github code pages proyects etc, so i decided to organize buch of left over codes proyects etc update and put in easy platform where people can use it.
@@ -32,15 +33,15 @@ PAL version the game was more difficult because has not enabled debug symbols, a
 
 ### Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
 
-+des-PAL-letizer code (rip off call-function pal video selector)
-+Autoboot - Enable Native Progressive Scan video mode call-function
-+No interleacing (native progressive mode disable this)
-*recomended profile for PCSX2-QT included in download
+- +des-PAL-letizer code (rip off call-function pal video selector)
+- +Autoboot - Enable Native Progressive Scan video mode call-function
+- +No interleacing (native progressive mode disable this)
+- *recomended profile for PCSX2-QT included in download
 
 ### Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
-+Autoboot - Enable Native Progressive Scan video mode call-function
-+No interleacing (native progressive mode disable this)
-*recomended profile for PCSX2-QT included in download
+- +Autoboot - Enable Native Progressive Scan video mode call-function
+- +No interleacing (native progressive mode disable this)
+- *recomended profile for PCSX2-QT included in download
 
 ### DOWNLOAD PNACH CODES FOR PC EMULATOR PCSX2-QT FROM HERE:
 [Repository with patches in github](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2)
@@ -50,10 +51,9 @@ PAL version the game was more difficult because has not enabled debug symbols, a
 This codes give better - stable image in PCSX2-QT emulator and ps2 / ps3 / ps4 hardware, also you can use the correct pixel aspect ratios for integer scaling 2d in 2k - 4k monitors (in pc emulator) ---pending new post about it-----
 
 ### HOW TO APPLY PERSONAL DUMPS TO BE PLAYED IN CONSOLES:
---*pending tutorial---
+- --*pending tutorial---
 meanwhile use PS2 Patch Engine by pelvicthrustman 1.03 from here:
 [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)
-
 open pnach codes with text editor and copy to tool and patch you dump.
 
 ### TESTED setups:
