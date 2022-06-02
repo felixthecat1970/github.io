@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Game Code HACK Stories
+title: REVERSE-ENGINEERING TECNOLOGY, GAME CODE, STORIES AND NOTES
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog with histories, notes, news, about learning, reverse engineering old game code from old consoles ps2 ps3 wii.
@@ -58,20 +58,11 @@ plugins:
 author:
   name   : "FelixTheCat1970"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Technical marketing in tecnology, tecnology advisor, repair, building PC - Consoles etc."
+  bio    : "Technical Marketing, PC / Game Consoles / Audio / Video Tenhnology advisor, repair, building, upgrading others related"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/felixthecat1970"
 
 footer:
   links:
