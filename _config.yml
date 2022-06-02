@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "FelixTheCat1970"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Technical Marketing, PC / Game Consoles / Audio / Video Technology advisor, repair, building, upgrading others related"
+  bio    : "Technical Marketing, PC / Game Consoles / Audio / Video Technology advisor, repair, building, upgrading."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
