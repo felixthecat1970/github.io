@@ -45,18 +45,17 @@ PAL version the game was more difficult because not have debug symbols, also loa
 - *recomended auto-profiles options for PCSX2-QT included in download
 *pending code tag here
 
-##HOW TO USE:
-
+## HOW TO USE:
 ## METHOD 1
 ### DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT" FROM HERE:
 [look and click -CODE>DOWNLOAD>ZIP> navigate in Playstation_2 folder](https://github.com/felixthecat1970/gamepatches)
-*copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator !!!this overwrite any custom cheats / gameconfigs for the game in your emualtion.!!!
+*copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator !!!this overwrite any custom cheats / gameconfigs for the game in your emualtion.!!!  
 or download pnach files directly from PCSX2 forums post here: *pending link
 
 ## METHOD 2 
 ### APPLY/PATCH GAME DUMPS .BIN/CUE=cd or .ISO=DVD:
-*pending tutorial
-meanwhile use PS2 Patch Engine by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)
+*pending tutorial  
+meanwhile use PS2 Patch Engine by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
 download .pnach codes from method 1, open pnach codes with text editor, copy to tool and patch you dump.
 
 This codes enable best image mode support in PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation -*still untested i dont have 2k-4k nmonitors) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/) *Pending more detailed tutorial.
@@ -79,9 +78,9 @@ Recomended official developers - collaborators sites:
 - PC: - [Playstation 2 official emulator site](https://pcsx2.net/)
 - PS3: - [Official site for enable homebrew ps3xploit.com](http://ps3xploit.com/) [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
 - PS2: - [Recomended guide for enable Hombrew](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
-- PS4: - Need enabled homebrew console (posible all ps4 models with firmware 1-00 - 9.00)
-- Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
-- For lastest news releases config parameters required for ps2 in ps4 emulation look here [LINK](https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/) 
+- PS4: - Need enabled homebrew console (posible all ps4 models with firmware 1-00 - 9.00)  
+Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)  
+For lastest news releases config parameters required for ps2 in ps4 emulation look here [LINK](https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/) 
 
 ## Disclaimer:
 This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering. 
