@@ -27,7 +27,7 @@ Almost 2+ years withow Job and looking something to keep me thinking i decide to
 ## CODE NOTES - STORIES:
 Looking last year for improve games i find has debug symbols (the japanese version), so learning more and find interesting codes like sharp buffer address and interleacing functions but still no like it, after year and past weeks re-learning more how to interact with functions, mips registers etc, i find pattern the programers leave disabled or half enabled functions like progressive scan function, ree-nable the function and native 480p mode is enabled wich also disable natively the interleacing function (a thing was required to old crt tv tecnology is not look good in moderns tv and monitors like jumping-blurry image) maybe if you reading this not understand many things but i intend update my tutorial about disable interleacing function in ps2 games i published in [PCSX2 forums](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=610584#pid610584) last year (still it need update some step not work anymere) i will update here and there too next weeks but lets talk about PAL version......
 
-PAL version the game was more difficult because not have debug symbols, also load custom .elf (PS2 executable format) clear ps2 ram, load main .elf executable so finding codes will be more difficult, I find the 480p (hours of reasonings) but was messup by PAL FUNCTION so the main task i propose to me was rip off that PAL selector wich no required anymore with 480p mode (but still required if you live in europe playing with old crt TV PAL signal only :) )... i intend to explain better this posts but will be updated after ... meanwhile lets go with the goods.... i disable PAL mode, reenable native 480p progressive mode disable functions a no more interleaced signal enabled, i intent to name this codes for PAL ports (who many hate) the "Des-PAL-letizer" codes which take me some hours of thinking and testing.
+PAL version the game was more difficult because not have debug symbols, also load custom .elf (PS2 executable format) clear ps2 ram, load main .elf executable so finding codes will be more difficult, I find the 480p (hours of reasonings) but was messup by PAL FUNCTION so the main task i propose to me was rip off that PAL selector wich no required anymore with 480p mode (but still required if you live in europe playing with old crt TV PAL signal only :) )... *pending more tech explaination for other time ... meanwhile lets go with the news.... i disable PAL mode, reenable native 480p progressive mode disable functions a no more interleaced signal enabled, i intent to name this codes for PAL ports (who many hate) the "Des-PAL-letizer" codes which take me some hours of thinking and testing.
 
 ## GAMES CODES:
 ### Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
@@ -76,9 +76,10 @@ Recomended official developers - collaborators sites:
 - PC: - [Playstation 2 official emulator site](https://pcsx2.net/)
 - PS3: - [Official site for enable homebrew ps3xploit.com](http://ps3xploit.com/) [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
 - PS2: - [Recomended guide for enable Hombrew](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
-- PS4: - Need enabled homebrew console (posible all ps4 models with firmware 1-00 - 9.00)  
-Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)  
-For lastest news releases config parameters required for ps2 in ps4 emulation look here [LINK](https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/) 
+- PS4:
+    - Need enabled homebrew console (posible all ps4 models with firmware 1-00 - 9.00)
+    - Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
+    - For lastest news releases config parameters required for ps2 in ps4 emulation look here [LINK](https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/)
 
 ## Disclaimer:
 This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering. 
