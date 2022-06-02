@@ -15,7 +15,7 @@ More info about game: [Wikipedia](https://en.wikipedia.org/wiki/Assault_Suits_Va
 
 <!--more-->
 
-![alt](https://github.com/felixthecat1970/gamepatches-blog/blob/gh-pages/assets/images/felixthecat.png)
+![imagehere](/gamepatches-blog/assets/images/felixthecat.png)
 
 <!--![]Assault Suits Valken (Europe)  |     重装機兵ヴァルケン (Japan)
 :-----------------------------:|:-----------------------------:
