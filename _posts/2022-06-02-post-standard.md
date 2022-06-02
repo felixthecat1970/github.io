@@ -74,7 +74,7 @@ yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models lik
 ### How to play in...
 Recomended official developers - collaborators sites:
 - PC: - [Playstation 2 official emulator site](https://pcsx2.net/)
-- PS3: - [Official site for enable homebrew ps3xploit.com](http://ps3xploit.com/) [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
+- PS3: - [Official site for enable homebrew ps3xploit.com](http://ps3xploit.com/) and [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
 - PS2: - [Recomended guide for enable Hombrew](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
 - PS4:
     - Need enabled homebrew console (posible all ps4 models with firmware 1-00 - 9.00)
