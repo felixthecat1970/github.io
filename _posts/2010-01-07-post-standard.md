@@ -1,17 +1,16 @@
 ---
-title: "Post: Standard"
+title: "lets start with PS2 Assault Suits Valken Game Enhacements"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
+  - PS2
 tags:
   - Post Formats
   - readability
   - standard
 ---
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
-
-Mrs. Darling first heard of Peter when she was tidying up her children's minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.
+Assault Suits Valken and (重装機兵ヴァルケン) for playstation 2 console, only released in Japan and Europe, here you will find codes for disable the interleaced function, enable disabled modes for 480p progressive scan display mode and recomended profiles for PC emualtor PCX2-QT
 
 <!--more-->
 
@@ -21,12 +20,64 @@ This post has a manual excerpt `<!--more-->` set after the second paragraph. The
 excerpt_separator: "<!--more-->"
 ```
 
-If you could keep awake (but of course you can't) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.
+# Before start a little about ....
+Almost 2+ years withow Job and looking something to keep me thinking i decide to organize my old reverse enginnering codes of games i did last years and some i published in PCSX2 forums last year, returning after a year looking now thread and new advances in PCSX2 pc emulator, the people are active with new codes, hacks etc, and me lurking there to post something (also i have to train my mind because boredom and no stable jobs are killing me) happen to find about github code pages proyects etc, so i decided to organize buch of left over codes proyects etc update and put in easy platform where people can use it.
 
-I don't know whether you have ever seen a map of a person's mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child's mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.
+Assault Suits Valken and (重装機兵ヴァルケン) for playstation 2 console, only released in Japan and Europe, here you will find codes for disable the interleaced function, enable disabled modes for 480p progressive scan display mode and recomended profiles for PC emualtor PCX2-QT.
 
-Of course the Neverlands vary a good deal. John's, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other's nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.
+More about game : https://en.wikipedia.org/wiki/Assault_Suits_Valken 
 
-Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.
+## CODE NOTES - STORIES:
+Looking last year for improve games i find has debug symbols (the japanese version) enabled, so learning more and study I find interesting codes like sharp buffer address and interleacing functions but still no like it, after past weeks re-learning more how to interact with functions, mips registers etc, i find pattern the programers leave disabled or half enabled functions like progressive scan function, ree-nable the function and enable native 480p progressive code wich also disable natively the interleacing function (was required to old crt tv tecnology wich is not required anymore,) maybe if you reading this not understand many things but i intend update my tutorial about disable interleacing function in ps2 games i published here >>>>  last year; and update here and there too but lets talk about PAL version......
 
-Occasionally in her travels through her children's minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael's minds, while Wendy's began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.
+PAL version the game was more difficult because has not enabled debug symbols, also load custom .elf (PS2 executable format) clear ps2 ram, load main .elf so finding codes will be more difficult, but the main task i propose to me was rip off that PAL selector wich no required anymore (but still required if you live in europe playing with old crt TV PAL signal only :9  ) i intend to explain better this posts but will be updated after ... meanwhile lets go with the goods.... i rip off seletor also reeenable native 480p progressive mode disable functions a no more interleaced signal enabled, i intent to name this codes for PAL games ports (who many hate) the "des-PAL-letizer" codes for keep in mind.
+
+## GAMES CODES:
+
+# Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
+
++des-PAL-letizer code (rip off call-function pal video selector)
++Autoboot - Enable Native Progressive Scan video mode call-function
++No interleacing (native progressive mode disable this)
+*recomended profile for PCSX2-QT included in download
+
+# Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
++Autoboot - Enable Native Progressive Scan video mode call-function
++No interleacing (native progressive mode disable this)
+*recomended profile for PCSX2-QT included in download
+
+# DOWNLOAD PNACH CODES FOR PC EMULATOR PCSX2-QT FROM HERE:
+[Repository with patches in github] (https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2)
+
+
+*copy folders cheats - gamesettings and files to your default PCX2-QT emulator 
+
+This codes give better - stable image in PCSX2-QT emulator and ps2 / ps3 / ps4 hardware, also you can use the correct pixel aspect ratios for integer scaling 2d in 2k - 4k monitors (in pc emulator) ---pending new post about it-----
+
+# HOW TO APPLY PERSONAL DUMPS TO BE PLAYED IN CONSOLES:
+--*pending tutorial---
+meanwhile use PS2 Patch Engine by pelvicthrustman 1.03 from here:
+[Link] (https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)
+
+open pnach codes with text editor and copy to tool and patch you dump.
+
+## TESTED setups:
+PC: RYZEN 3400G WITH INTEGRATED GPU VEGA 11 + PCSX2-QT-avx2 
+PS3 SLIM (USA MODEL) - CFW evilnat 4.88 + webmanmod
+PS2 (UNTESTED - *PENDING) *look faq
+PS4 (UNTESTED - *PENDING) *look faq
+
+## FAQ:
+This codes is for ?
+Use in PC emulator PCX2-QT, PS3 HARDWARE CONSOLES (hdmi-component 480p-1080p only), PS2 HARDWARE CONSOLES (with component and progressive tv setups) incompactible with interleaced signals setups like rca, white, red, yellow cables.
+
+## How to play in: (recomended official developers - collaborators sites):
+PC: [Playstation 2 official emulator site] (https://pcsx2.net/)
+PS3: [Official site for enable homebrew ps3xploit.com] (http://ps3xploit.com/) and [Homebrew enabler CFW Evilnat thread] (https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
+PS2: [Recomended guide for enable Hombrew] (https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
+PS4: *require homebrew enabled console - missing recomended website but go this thread for new about ps2 emulation in ps4 [link] (https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/)
+
+## Disclaimer:
+This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering. 
+
+
