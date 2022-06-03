@@ -35,6 +35,7 @@ PAL version the game was more difficult because not have debug symbols, also loa
 - +Des-PAL-Letizer code (disable PAL video selector screen)
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing
+- works in PS3 (other consoles untested but it shuld work **pending verification**)
 - *recomended auto-profiles file for PCSX2-QT included in download
 
 ```txt
@@ -52,6 +53,7 @@ patch=1,EE,2020BA44,extended,24A30033
 ### Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 - +Autoboot - Enable Native Progressive Scan video mode call-function
 - +No interleacing
+- works in PS3 (other consoles untested but it shuld work **pending verification**)
 - *recomended auto-profiles file for PCSX2-QT included in download
  
 ```txt
@@ -91,7 +93,7 @@ meanwhile use PS2 Patch Engine tool by pelvicthrustman 1.03 from here: [Link](ht
 Use in PC emulator PCX2-QT, PS3 HARDWARE CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 HARDWARE CONSOLES (with component and progressive tv setups) incompactible with interleaced signals setups like rf, rca, white, red, yellow cables.
 
 ### This can be used with original game disks ?
-yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN only (Europe models is ps2 software emulation= bad compactibility/bugs) for ps2/ps3 bc use PS2 OPL homebrew cheats setup or gameshark devices (you need to convert codes which is hard) but more easy step is dump your game and patch it and have your console homebrew enabled. (**pending guide how to dump correctly) but more tech oriented/seasoned people here "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try your imgburn in windows / gnome brazero (linux).
+yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN only (Europe models is ps2 software emulation= bad compactibility/bugs) for ps2/ps3 bc use PS2 OPL homebrew cheats setup or gameshark devices (you need to convert codes which is hard) but more easy step is dump your game and patch it and have your console homebrew enabled. for more tech oriented/seasoned people here "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn in windows, brazero or similar(linux) and verify your dump in redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### How to play in...
 Recomended official developers - collaborators sites:
