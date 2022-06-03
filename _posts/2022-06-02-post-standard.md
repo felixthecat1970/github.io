@@ -35,7 +35,7 @@ PAL version the game was more difficult because not have debug symbols, also loa
 - +Des-PAL-Letizer code (disable PAL video selector screen)
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing
-- works in PS3 (other consoles untested but it shuld work **pending verification**)
+- +works in PS3 (other consoles untested but it shuld work **pending verification**)
 - *recomended auto-profiles file for PCSX2-QT included in download
 
 ```txt
@@ -53,7 +53,7 @@ patch=1,EE,2020BA44,extended,24A30033
 ### Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 - +Autoboot - Enable Native Progressive Scan video mode call-function
 - +No interleacing
-- works in PS3 (other consoles untested but it shuld work **pending verification**)
+- +works in PS3 (other consoles untested but it shuld work **pending verification**)
 - *recomended auto-profiles file for PCSX2-QT included in download
  
 ```txt
