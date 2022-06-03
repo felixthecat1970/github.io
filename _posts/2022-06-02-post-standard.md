@@ -73,13 +73,13 @@ This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
 [Click here and look for CODE > DOWNLOAD ZIP](https://github.com/felixthecat1970/gamepatches)  
 open downloaded file navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
-!!!this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder.!!!  
-also you can download pnach files directly from PCSX2 forums post here: *pending link
+!!! this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder. !!!  
+also you can download pnach files directly from PCSX2 forums post [HERE](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627161#pid627161)
 
-### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=cd or .ISO=DVD FOR PS2/PS3/PS4/PC  
-*pending tutorial  
+### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
+**pending tutorial**  
 meanwhile use PS2 Patch Engine tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
-1. download .pnach codes from method 1 or look patch line files from code of your game version
+1. download .pnach codes from method 1 or look patch line files from code part for your game version
 2. open pnach codes with text editor, copy patch code lines according region game you want to patch look the CRC = XXXXXXX and patch you game dump.
 
 ### TESTED setups:
