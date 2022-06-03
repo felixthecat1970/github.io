@@ -32,19 +32,36 @@ PAL version the game was more difficult because not have debug symbols, also loa
 ## GAMES CODES:
 ### Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
 
-- +Des-PAL-Letizer code (disable call-function pal video selector)
-- +Autoboot - Enable Native Progressive Scan video mode call-function
-- +No interleacing (native progressive mode disable this)
-- *recomended auto-profiles file for PCSX2-QT included in download  
-**pending code tag here**
+- +Des-PAL-Letizer code (disable PAL video selector screen)
+- +Autoboot - Enable Native Progressive Scan video mode (call-function)
+- +No interleacing
+- *recomended auto-profiles file for PCSX2-QT included in download
+```
+gametitle=Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
+comment=Enable native progressive mode by Felixthecat1970
 
+//480p + skip pal-ntsc selector + corrections
+patch=0,EE,2011D908,extended,00000000 //patch this file to SLES_532.33 when promted
+patch=1,EE,2020FB0C,extended,24050004
+patch=1,EE,2020FB10,extended,240701C0
+patch=1,EE,2020BA40,extended,6466013E
+patch=1,EE,2020BA44,extended,24A30033
+```
 ### Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 - +Autoboot - Enable Native Progressive Scan video mode call-function
-- +No interleacing (native progressive mode disable this)
+- +No interleacing
 - *recomended auto-profiles file for PCSX2-QT included in download  
-**pending code tag here**
+```
+gametitle=Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
+comment=Enable native progresive mode v2 by Felixthecat1970
 
-This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation -*still untested i dont have 2k-4k nmonitors) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/) **Pending more detailed tutorial.**
+//480p + corrections
+patch=0,EE,201C53FC,extended,240701C0
+patch=0,EE,201C5410,extended,24050004
+patch=0,EE,201E2D14,extended,65E3013E
+patch=0,EE,201E2D18,extended,25C50033
+```
+This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation with integer scaling - screen offset settings) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/) **Pending more detailed tutorial.**
 
 ## HOW TO USE:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
@@ -53,10 +70,11 @@ open downloaded file navigate to Playstation 2 foler, copy files and folders fro
 !!!this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder.!!!  
 also you can download pnach files directly from PCSX2 forums post here: *pending link
 
-### METHOD 2 - APPLY/PATCH GAME DUMPS .BIN/CUE=cd or .ISO=DVD:
+### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=cd or .ISO=DVD FOR PS2/PS3/PS4/PC  
 *pending tutorial  
 meanwhile use PS2 Patch Engine tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
-download .pnach codes from method 1, open pnach codes with text editor, copy code lines to tool and patch you game dump.
+1. download .pnach codes from method 1 or look patch line files from code of your game version
+2. open pnach codes with text editor, copy patch code lines according region game you want to patch look the CRC = XXXXXXX and patch you game dump.
 
 ### TESTED setups:
 - PC: - RYZEN 3400G WITH INTEGRATED GPU VEGA 11 + PCSX2-QT-avx2 
