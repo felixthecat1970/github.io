@@ -36,7 +36,9 @@ PAL version the game was more difficult because not have debug symbols, also loa
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing
 - *recomended auto-profiles file for PCSX2-QT included in download
+
 ```
+
 gametitle=Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
 comment=Enable native progressive mode by Felixthecat1970
 
@@ -46,12 +48,16 @@ patch=1,EE,2020FB0C,extended,24050004
 patch=1,EE,2020FB10,extended,240701C0
 patch=1,EE,2020BA40,extended,6466013E
 patch=1,EE,2020BA44,extended,24A30033
+
 ```
+
 ### Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 - +Autoboot - Enable Native Progressive Scan video mode call-function
 - +No interleacing
-- *recomended auto-profiles file for PCSX2-QT included in download  
+- *recomended auto-profiles file for PCSX2-QT included in download
+ 
 ```
+
 gametitle=Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 comment=Enable native progresive mode v2 by Felixthecat1970
 
@@ -60,7 +66,9 @@ patch=0,EE,201C53FC,extended,240701C0
 patch=0,EE,201C5410,extended,24050004
 patch=0,EE,201E2D14,extended,65E3013E
 patch=0,EE,201E2D18,extended,25C50033
+
 ```
+
 This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation with integer scaling - screen offset settings) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/) **Pending more detailed tutorial.**
 
 ## HOW TO USE:
