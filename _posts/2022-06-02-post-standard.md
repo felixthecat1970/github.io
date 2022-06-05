@@ -68,12 +68,12 @@ patch=0,EE,201E2D18,extended,25C50033
 
 ```
 
-This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation with integer scaling - screen offset settings) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/) **Pending more detailed tutorial.**
+This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use integer scaling - screen offset settings) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
 ## HOW TO USE:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
 [Click here and look for CODE > DOWNLOAD ZIP](https://github.com/felixthecat1970/gamepatches)  
-open downloaded file navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
+open downloaded file, navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
 !!! this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder. !!!  
 also you can download .pnach files directly from PCSX2 forums post [HERE](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627161#pid627161)
 
@@ -81,7 +81,7 @@ also you can download .pnach files directly from PCSX2 forums post [HERE](https:
 Look readme post in [RomHacking.com](https://www.romhacking.net/hacks/6891/)
 Or use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
 1. download/view "patch" lines codes from method 1 according your game version
-2. if using download open .pnach codes with text editor, copy patch code lines according game region "look method 1 CRC=XXXXXXX for know region .pnach file match" and patch you game dump. (in PAL version, patch to SLES_532.33 when dialog appear).
+2. if using download open .pnach codes with text editor, copy "*patch*" code lines according game region "look method 1 CRC=XXXXXXX for know region .pnach file match" and patch you game dump. (in PAL version, patch to SLES_532.33 when dialog appear).
 
 ### TESTED setups:
 - PC: - RYZEN 3400G WITH INTEGRATED GPU VEGA 11 + PCSX2-QT-avx2 
@@ -91,10 +91,10 @@ Or use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https:
 
 ## FAQ:
 ### This codes is for ?
-Use in PC emulator PCX2-QT, PS3 HARDWARE CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 HARDWARE CONSOLES (with component and progressive tv setups) incompactible with interleaced signals setups like rf, rca, white/red/yellow cables.
+Use in PC emulator PCSX2-QT, PS3 CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 CONSOLES (with component progressive tv setups) incompactible with interleaced signals setups like rf, rca white/red/yellow cables.
 
 ### This can be used with original game disks ?
-yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN (Europe models is ps2 software emulation=bad compactibility/bugs) for ps2/ps3-bc use PS2 OPL homebrew cheats setup or gameshark alike devices (you need to convert codes which is hard); more easy step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you verify your original game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
+yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and method load cheats files format .pnach, i hear PS2 OPL homebrew can load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader) or gameshark alike devices (you need to convert codes which is hard); my recomended step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you can verify game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### How to play in...
 Recomended official developers - collaborators sites:
