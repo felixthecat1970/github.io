@@ -68,7 +68,7 @@ patch=0,EE,201E2D18,extended,25C50033
 
 ```
 
-This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use integer scaling - screen offset settings) learn more about it: [HERE](https://tanalin.com/en/articles/integer-scaling/)
+This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use integer scaling - screen offset settings) learn more about [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
 ## HOW TO USE:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
@@ -78,7 +78,7 @@ open downloaded file, navigate to Playstation 2 foler, copy files and folders fr
 also you can download .pnach files directly from PCSX2 forums post [HERE](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627161#pid627161)
 
 ### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
-Look readme post in [RomHacking.com](https://www.romhacking.net/hacks/6891/)
+Look readme post in [RomHacking.com](https://www.romhacking.net/hacks/6891/)  
 Or use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
 1. download/view "patch" lines codes from method 1 according your game version
 2. if using download open .pnach codes with text editor, copy "*patch*" code lines according game region "look method 1 CRC=XXXXXXX for know region .pnach file match" and patch you game dump. (in PAL version, patch to SLES_532.33 when dialog appear).
