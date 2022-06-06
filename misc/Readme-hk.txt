@@ -12,7 +12,7 @@ Chages:
 Ps2: with component cables - progresive signal setups
 Ps3 backward ps2 hardware compactible: component - hdmi cables, with 480p-720p-1080p modes
 
-download readme for instructions or visit this link more info https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/post-standard/
+download readme for instructions or visit this link more info https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/post-ps2-sb-hk/
 
 How to patch:
 1. use PS2 Patch Engine tool by pelvicthrustman 1.03 from here:
