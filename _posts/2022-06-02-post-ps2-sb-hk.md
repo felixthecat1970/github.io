@@ -13,9 +13,15 @@ Hokuto no Ken 北斗の拳 審判の双蒼星 拳豪列伝 and Sengoku BASARA X 
 
 <!--more-->
 
-Hokuto no Ken 北斗の拳 審判の双蒼星 拳豪列伝  (Japan)  |  Sengoku BASARA X (戦国BASARA X) (Japan)
+<figure class="half">
+<a href="/gamepatches-blog/assets/images/sb-jp.jpg"><img src="/assets/images/sb-jp.jpg"></a>
+<a href="/gamepatches-blog/assets/images/hk-jp.jpg"><img src="/assets/images/hk-jp.jpg"></a>
+	<figcaption>look below images.</figcaption>
+</figure>
+
+<!--Hokuto no Ken 北斗の拳 審判の双蒼星 拳豪列伝  (Japan)  |  Sengoku BASARA X (戦国BASARA X) (Japan)
 :-------------------------:|:-------------------------:
-![JAP](/gamepatches-blog/assets/images/hk-jp.jpg)  |  ![JAP](/gamepatches-blog/assets/images/sb-jp.jpg)
+![JAP](/gamepatches-blog/assets/images/hk-jp.jpg)  |  ![JAP](/gamepatches-blog/assets/images/sb-jp.jpg)-->
 
 More info Hokuto no ken (Fist of the north star) game: [Wikipedia](https://en.wikipedia.org/wiki/Fist_of_the_North_Star_(2005_video_game)) also [Learn how to play it](https://wiki.supercombo.gg/w/Hokuto_no_Ken)   
 More info Sengoku Basara X game: [Wikia](https://sengokubasara.fandom.com/wiki/Sengoku_BASARA_X) also [learn how to play it](https://wiki.supercombo.gg/w/Sengoku_Basara_X)
