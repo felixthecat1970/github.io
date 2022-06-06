@@ -14,8 +14,8 @@ Hokuto no Ken 北斗の拳 審判の双蒼星 拳豪列伝 and Sengoku BASARA X 
 <!--more-->
 
 <figure class="half">
-<a href="/gamepatches-blog/assets/images/sb-jp.jpg"><img src="/assets/images/sb-jp.jpg"></a>
-<a href="/gamepatches-blog/assets/images/hk-jp.jpg"><img src="/assets/images/hk-jp.jpg"></a>
+<a href="/assets/images/sb-jp.jpg"><img src="/assets/images/sb-jp.jpg"></a>
+<a href="/assets/images/hk-jp.jpg"><img src="/assets/images/hk-jp.jpg"></a>
 	<figcaption>look below images.</figcaption>
 </figure>
 
@@ -33,16 +33,16 @@ This is my findings, ideas, codes, information, experiments, deduction in a empi
 looking in pcsx2 debugger a bunch of numbers, letters combined program language named "MIPS" which is cpu architecture for ps2 cpu, for improve a peculiar common standard ps2 games resolutions in games was:   640x468 ntsc   512x468 ntsc   512x512 pal   512x456 pal   --pixels-lines resolutions (ps2 games also has anothers weird pixels/lines resolutions and infamous 240p but this is for other post) anyway looking on ps2 docs GS (graphics synthetizer) others i see the support for vga 640x480p/i VESA modes (common resolution for many games) and looking internal resolutions for games has native progressive modes wich enables 640x480p pixels/lines in games with 640x468 ntsc, also in my "witch hunt" for disable the "interleace" implementation 2necessary for crt tv from that time (talk reserved for anothor post) i see this is also disabled natively when 480p tv mode "sdtv" is enabled so the solution is enable 480p but here the news if you are reading this display mode is not implemented in all games officialy  only limted list you can check here, ok then you read, used etc in web exist tools, disk for enable this sdtv modes working "ok" but some problems mainly videos crash/no display or wrong image positions, also other forums exist better solution like GSM tool and implementation / update of GSM in PS2OPL Loader wich works ok but same some tittles have video crash or wwrong image positions, also direct hacks in code like this witch enables more direct 480p modes still keep me wondering what if.... (yes marvel , good animation) this modes are natively implemented but disabled in game code, because seasoned programers who create programs old times, apps etc in pc workstations in his max tecnology but when the boos, project manager wharever now (marketing... marketing?) tell you or remind you core principles of "better stable product that experimental" and "broadban public to reach safely" sdtv was a novelty that time and is better safe that sorry.... (appart now understant old friend socrates not write almost any because "feel free in the heat of the words.." kudos to book writers) so many this things are leaving dornmant/disabled in..code and start the game adaptation to consumers crt tv (or image "downgrade" like i name),  (ok for people look more tecnicall reading would be later sorry --still organizing ideas explanations etc); here the results thanks to lectures in sony ps2 GS documents, GSM source code and anothers lectures (look end of post) and learning more "basics" in mips i find common functions who let me to find this native sdtv codes in this games and another srurise the correct native modes in 640x480 pixels instead 640x448 ntsc
 
 <figure class="half">
-<a href="/gamepatches-blog/assets/images/hk-pic2.png"><img src="/assets/images/hk-pic2.png"></a>
-<a href="/gamepatches-blog/assets/images/hk-p-pic1.png"><img src="/assets/images/hk-p-pic1.png"></a>
+<a href="/assets/images/hk-pic2.png"><img src="/assets/images/hk-pic2.png"></a>
+<a href="/assets/images/hk-p-pic1.png"><img src="/assets/images/hk-p-pic1.png"></a>
 	<figcaption>look below images.</figcaption>
 </figure>
 
 About sengoku basara \ hokuto no ken game really not need a interleaced - 480p mode code because they are presented in mode named "full frame mode (still learning how to name properly)" means each frame-image is presented in each interval scan in tv/monitor full resolution so image look pretty and interleaced implementation runs ok (the jumping image up-down effect for crt tvs visible in sdtv or monitors but is explanation for other day), so lets find something anyway, some weeks ago find main code for sdtv but strange sengoku basara animated video opening crash, logs and console looks ok, after hours of debugging find culprit and fixed,  some days ago new fix change in PCSX2 source code corrects values in GSM area and video start crashing again so wrong fix asumtion, lets debug again ... trying other method is analize the video files and was rigth video is in interleaced mode ...maybe is this the problem, lucky video file format was in mpeg not need to recoding for change in progressive mode...rebuid image, testing and.... wrong video still crash .. looking other video type files other games also has video in interleave mode but running in progressive when mode is enabled (..or was i dreaming..) tired test need to resting too much numbers and letters, retaking next day code hunting finally after some hours of analize code find the correct code (i hope in future), the good part this  confirm assuptions about others functions handles video and possible correction for common video crash in sdtv modes when test other titles video crash bug when progressive is enabled still this need further testing; also the main bonus thing was the games run in native 640x480 pixels and have more area displayed (recover 34 view vertical pixels area ;) ) like other test codes i made last year ..so 480p native can be the way... maybe ... but lets see example area regained :
 
 <figure class="half">
-<a href="/gamepatches-blog/assets/images/sb-pic-2.png"><img src="/assets/images/sb-pic-2.png"></a>
-<a href="/gamepatches-blog/assets/images/sb-p-pic1.png"><img src="/assets/images/sb-p-pic1.png"></a>
+<a href="/assets/images/sb-pic-2.png"><img src="/assets/images/sb-pic-2.png"></a>
+<a href="/assets/images/sb-p-pic1.png"><img src="/assets/images/sb-p-pic1.png"></a>
 	<figcaption>look below images.</figcaption>
 </figure>
 
