@@ -13,13 +13,13 @@ Hokuto no Ken 北斗の拳 審判の双蒼星 拳豪列伝 and Sengoku BASARA X 
 
 <!--more-->
 
-北斗の拳 審判の双蒼星 拳豪列伝  (Japan)                 | *(戦国BASARA X)* (Japan)
-*Hokuto no Ken: Shinpan no Sōsōsei: Kengō Retsuden* | Sengoku BASARA X 
+北斗の拳 審判の双蒼星 拳豪列伝  (Japan) | *(戦国BASARA X)* (Japan)
+*Hokuto no Ken*                     | Sengoku BASARA X 
 :-------------------------------------------------:|:--------------------------------------------------:
-![JAP](/gamepatches-blog/assets/images/hk-eu.jpg)  |  ![JAP](/gamepatches-blog/assets/images/sb-jp.jpg)
+![JAP](/gamepatches-blog/assets/images/hk-jp.jpg)  |  ![JAP](/gamepatches-blog/assets/images/sb-jp.jpg)
 
-More info Hokuto no ken game (fist of the north start) [Wikipedia](https://en.wikipedia.org/wiki/Fist_of_the_North_Star_(2005_video_game) [Learn to play it](https://wiki.supercombo.gg/w/Hokuto_no_Ken) 
-More info Sengoku Basara X game [Wikia](https://sengokubasara.fandom.com/wiki/Sengoku_BASARA_X) [learn to play it](https://wiki.supercombo.gg/w/Sengoku_Basara_X)
+More info Hokuto no ken (Fist of the north star) game: [Wikipedia](https://en.wikipedia.org/wiki/Fist_of_the_North_Star_(2005_video_game)) also [Learn how to play it](https://wiki.supercombo.gg/w/Hokuto_no_Ken)   
+More info Sengoku Basara X game: [Wikia](https://sengokubasara.fandom.com/wiki/Sengoku_BASARA_X) also [learn how to play it](https://wiki.supercombo.gg/w/Sengoku_Basara_X)
 
 ## Disclaimer:
 This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end who help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can someway understand. 
@@ -111,21 +111,21 @@ Use in PC emulator PCSX2-QT, PS3 CONSOLES (hdmi-component 480p-720p-1080p setups
 yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and a method load cheats files format .pnach, i hear PS2 OPL homebrew can load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader) or gameshark alike devices (you need to convert codes which is hard); my recomended step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you can verify game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### RECOMENDED LECTURES THANKS TO:
-    Title of article: Playstation 2 Architecture - A Practical Analysis
-    Author: Rodrigo Copetti
-    URL: https://www.copetti.org/writings/consoles/playstation-2/
-    Date of publication: April 8, 2020
-    Last modified: June 3, 2022
+- Title of article: Playstation 2 Architecture - A Practical Analysis
+  - Author: Rodrigo Copetti
+  - URL: https://www.copetti.org/writings/consoles/playstation-2/
+  - Date of publication: April 8, 2020
+  - Last modified: June 3, 2022
 	
-	DobieStation 
-	Read the post "Sins of PS2" in https://www.patreon.com/dobiestation
+- DobieStation 
+  - Read the post "Sins of PS2" in https://www.patreon.com/dobiestation
 
 ### How to play in...
 Recomended official developers - collaborators sites:
 - PC: - Playstation 2 emulator PCSX2 [Official site](https://pcsx2.net/](https://pcsx2.net/)
 - PS3: - Enable homebrew [Official site](http://ps3xploit.com/) and [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
 - PS2: - [Recomended guide for enable Hombrew](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
-    - PS2 OPL homebrew [official site](https://github.com/ps2homebrew/Open-PS2-Loader)
+    - PS2 OPL homebrew [Official site](https://github.com/ps2homebrew/Open-PS2-Loader)
 - PS4:
     - Need enabled homebrew console (posible in all ps4 models with firmware 1-00 - 9.00)
     - Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
