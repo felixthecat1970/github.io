@@ -59,7 +59,7 @@ Hokuto no ken has a interesting thing is the english language available in game 
 In the end keep mind this codes are not perfect or maybe can have better code call function - register in future (special cases for tekken 5 japan/usa/pal version wich would be my stories); also the possiblity game crash long run (still testing now, so consider a beta releases), PS2 OPL GSM updates are the best solution till now if you are test 480p and not like to wait (links end of article) or wait i will publishing my code findings in this blog.
 
 ## GAMES CODES:
-### Sengoku Basara X (戦国BASARA X) (Japan) SLES_532.33;1) Game CRC = 0x1E177BBC
+### Sengoku Basara X (戦国BASARA X) SLPM_550.08;1) Game CRC = 0x721DEBE4
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing (of course sdtv mode call disable it)
 - +640x480 pixels-lines enabled (instead default 640x448) more viewable area, also Integer scaling (still untested)
@@ -99,10 +99,11 @@ This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 
 [Click here and look for CODE > DOWNLOAD ZIP](https://github.com/felixthecat1970/gamepatches)  
 open downloaded file, navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
 !!! this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder. !!!  
-also you can download .pnach files directly from PCSX2 forums post [HERE] pending update <!---(https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627161#pid627161) -->
+also you can download .pnach files directly from PCSX2 forums post [HERE](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627268#pid627268)
+<!---(https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627161#pid627161) -->
 
 ### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
-Look readme post in [RomHacking.com] *pending update* <!--- (https://www.romhacking.net/hacks/6891/) -->
+Look readme post in [RomHacking.com] *pending update link* <!--- (https://www.romhacking.net/hacks/6891/) -->
 Or use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
 1. download/view "patch" lines codes from method 1 according your game version
 2. if using download open .pnach codes with text editor, copy "*patch*" code lines according game region "look method 1 CRC=XXXXXXX for know region .pnach file match" and patch you game dump. (in PAL version, patch to SLES_532.33 when dialog appear).
