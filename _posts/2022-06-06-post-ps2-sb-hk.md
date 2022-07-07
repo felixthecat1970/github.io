@@ -59,12 +59,13 @@ Hokuto no ken has a interesting thing is the english language available in game 
 In the end keep mind this codes are not perfect or maybe can have better code call function - register in future (special cases for tekken 5 japan/usa/pal version wich would be my stories); also the possiblity game crash long run (still testing now, so consider a beta releases), PS2 OPL GSM updates are the best solution till now if you are test 480p and not like to wait (links end of article) or wait i will publishing my code findings in this blog.
 
 ## GAMES CODES:
-### Sengoku Basara X (戦国BASARA X) SLPM_550.08;1) Game CRC = 0x721DEBE4
+### Sengoku Basara X (戦国BASARA X) SLPM_550.08;1) Game CRC = 0x721DEBE4 v1
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing (of course sdtv mode call disable it)
 - +640x480 pixels-lines enabled (instead default 640x448) more viewable area, also Integer scaling (still untested)
 - *recomended disable pcsx2 > graphics > shader "texture filtering display" for more pixel art image (more clean image)
 - *recomended auto-profiles file for PCSX2-QT included in download
+- *v1 disable antialias option by default because not necessary and causes bugs
 
 ```
 gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
@@ -73,15 +74,17 @@ comment=480p native sdtv mode unlock + extend resolution 640x480 v3 by felixthec
 //480p + 640x480 res. v3 !!!disable antialias option in game menu for 640x480!!!
 patch=0,EE,201004E4,extended,A2620016
 patch=0,EE,0010CF00,extended,24040000
-
+patch=0,EE,001EA6B4,extended,24060000
+patch=0,EE,202FAF88,extended,A0800014
 ```
 
-### Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454
+### Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454 v1
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing (of course sdtv mode call disable it)
 - +640x480 pixels-lines enabled (instead default 640x448) more viewable area, also Integer scaling (still untested)
 - *recomended disable pcsx2 > graphics > shader "texture filtering display" for more pixel art image (more clean image)
 - *recomended auto-profiles file for PCSX2-QT included in download
+- *v1 disable antialias option by default because not necessary and causes bugs
  
 ```
 gametitle=Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454
@@ -89,13 +92,15 @@ comment=Native 480p sdtv mode + extend 640x480 v2 by felixthecat1970
 
 //enable native 480p mode 640x480 !!!disable antialias option in game menu for 640x480!!!
 patch=0,EE,20292720,extended,A38286E8
+patch=0,EE,202ACA50,extended,24020000
+patch=0,EE,202B3E04,extended,A040D586
 
 ```
 
 This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use/test 4:3 display - integer scaling - screen offset settings) learn more about integer scaling [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
 ## HOW TO USE:
-### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
+### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT": 
 [Click here and look for CODE > DOWNLOAD ZIP](https://github.com/felixthecat1970/gamepatches)  
 open downloaded file, navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
 !!! this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder. !!!  
@@ -116,7 +121,7 @@ Or use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https:
 - PS4 - (UNTESTED) *look How to play
 
 ## FAQ:
-### This codes is for ?
+### This codes is for ? 
 Use in PC emulator PCSX2-QT, PS3 CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 CONSOLES (with component progressive tv setups) incompactible with interleaced signals setups like rf, rca white/red/yellow cables.
 
 ### This can be used with original game disks ?
