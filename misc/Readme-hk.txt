@@ -2,7 +2,7 @@ By FelixTheCat1970
 
 v1 -initial
 v2 -disable antialias by default because not necessary and cause graphic bugs
-   -port codes and config for PS2 to PS4 build
+   -port codes and config info for PS2 to PS4 build
 
 ### Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60
 Chages:
@@ -41,4 +41,5 @@ Hokuto no Ken: Shinpan no Sousousei: Kengou Retsuden
 SHA1: a0392092a456a9c1a6373ae174138c48dcb471ca
 
 PS2 to PS4
-visit link for code instructions (updating)
+visit link for code instructions:
+https://felixthecat1970.github.io/gamepatches-blog/blog/ps4/post-ps4-ps2_test1/
