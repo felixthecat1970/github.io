@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "PS4 basics running PS2 software"
+title: "PS4 running PS2 software test"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -20,7 +20,7 @@ This is my code finds, ideas, information, experiments, deduction in a empirical
 I heard some years ago about ps4 port of PS2 game software, that time was thinking will be bad because complexity PS2 hardware desing so no take hopes in it (also i did not have a PS4 for test that time), so now after spends last coins in PS4 test setup months ago, recent homebrew deveplopment i take a look how it is PS2 running ps4 and yes is good very promissing; because the level of documentation spend some weeks learning (look lectures are tecnical information) but resume sony take bull by horns developing a custom scripted commands who try emulate or workaround many PS2 internals using PS4 cpu-gpu, the scripting is passed in LUA language (new to me more to learn) using same code created for PS2 emulation in PS3 and horsepower of PS4 (ps3 > ps4 comparation wise) giving for surprise amazings results games can run in HD enhaced internal resolutions (like PC), can use Qol features like saves, captures image - video (still 30fps) repacks, game manuals custom overlays, controller compactibilities etc and amazing custom scripting for more advanced codes i was testing in PS2 counterparts i would said same as PC emulation, so great but all is not simple, thanks to PS4DEVWIKI have a lot of documentation and still missing info about houndred commands to pass, test, debug; also using a networked setup with codemaking > copilation > network install > run more or less similar to developers in PS4 debug stations still is a lot of time spend so no way to think people using old school create, copy to usb > install .... so boresome; still i manage to learn and port some codes i did for PS2 and you can test here, if you are interested i leave page documentation in lectures so lets get started. Edit:also fixed some codes for old post related.
 
 ## GAMES CODES:
-### Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60 
+### Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60
 - +Autoboot - Enable Native Progressive Scan video mode sdtv/480p
 - +Disable soft image filter by default (can be eneabled - disabled any time L3=Off R3=ON)
 - +Disable in game antialias, is not necessary anymore and causes graphic bugs
@@ -35,10 +35,11 @@ CLI:
 --hid-pad=1
 --gs-uprender=none
 --gs-upscale=point
-
 ```
+---------------------------------------------------------------------------------------------
 
-```LUA:
+LUA:
+```
 --Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60
 --comment= PS4 port Native 480p sdtv mode + extend 640x480 v3 by felixthecat1970
 
@@ -116,9 +117,10 @@ CLI:
 --gs-upscale=point
 
 ```
- 
-```LUA:
+----------------------------------------------------------------------------------------------------
 
+LUA:
+```
 --gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
 --comment=PS4 port native sdtv 480p mode unlock + extend resolution 640x480 v3 by felixthecat1970
 
@@ -180,7 +182,7 @@ emuObj.AddVsyncHook(CheckInputs)
 
 ```
 
-This codes are run PS2 in PS4, console need to be homebrew enabled for install, keep in mind due to emulation nature "maybe" games can have bugs in long plays.
+This codes run PS2 games descripted in PS4, console has to be homebrew enabled for install, keep in mind due to emulation nature "maybe" games can have bugs in long plays.
 
 ## HOW TO USE:
 ### METHOD 1 - USE custom "CLI" and "LUA" configs for build PKG :
