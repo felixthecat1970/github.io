@@ -27,8 +27,8 @@ I heard some years ago about ps4 port of PS2 game software, that time was thinki
 - +tests some ligths and arcade figthsticks compactibility (untested)
 - +add some icon - background for build (zip download)
 
-```
 CLI:
+```
 #USE kof98 emu files
 --gs-progressive=1
 --gs-use-deferred-l2h=0
@@ -40,8 +40,8 @@ CLI:
 
 LUA:
 ```
---Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60
---comment= PS4 port Native 480p sdtv mode + extend 640x480 v3 by felixthecat1970
+--gametitle=Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60
+--comment= PS4 port Native 480p sdtv mode + extend 640x480 v4 by felixthecat1970
 
 apiRequest(2.0)	-- request version 0.1 API. Calling apiRequest() is mandatory.
 
@@ -54,16 +54,17 @@ local lightDef1 = {0, 0, 153}
 
 emuObj.PadSetLightBar(0, lightDef0, 1, lightDef1)
 
---//480p sdtv mode + 640x480
+--//Native 480p sdtv mode + 640x480
 
 local options = function()
 
-eeObj.WriteMem32(0x00292720,0xA38286E8)
-eeObj.WriteMem32(0x002ACA50,0x24020000)
-eeObj.WriteMem32(0x002B3E04,0xA040D586)
+eeObj.WriteMem32(0x20292720,0xA38286E8)
+eeObj.WriteMem32(0x202ACA50,0x0000102D)
+eeObj.WriteMem32(0x202B3EB8,0x0000102D)
+eeObj.WriteMem32(0x202B4068,0x0000102D)
+eeObj.WriteMem32(0x002B3D38,0x24060000)
 
 end
-
 emuObj.AddVsyncHook(options)
 
 --soft filter L3=OFF R3=ON
@@ -95,9 +96,7 @@ if (R3 ~= 0) then
      gsObj.SetUpscaleMode("gpu")
 	end
 end
-
 emuObj.AddVsyncHook(CheckInputs)
-
 ```
 
 ### Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
@@ -107,8 +106,8 @@ emuObj.AddVsyncHook(CheckInputs)
 - +tests some ligths and arcade figthsticks compactibility (untested)
 - +add some icon - background for build (zip download)
 
-```
 CLI:
+```
 #USE kof98 emu files
 --gs-progressive=1
 --gs-use-deferred-l2h=0
@@ -122,7 +121,7 @@ CLI:
 LUA:
 ```
 --gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
---comment=PS4 port native sdtv 480p mode unlock + extend resolution 640x480 v3 by felixthecat1970
+--comment=PS4 port native sdtv 480p mode unlock + extend resolution 640x480 v4 by felixthecat1970
 
 apiRequest(2.0)	-- request version 0.1 API. Calling apiRequest() is mandatory.
 
@@ -135,17 +134,20 @@ local lightDef1 = {0, 0, 153}
 
 emuObj.PadSetLightBar(0, lightDef0, 1, lightDef1)
 
---//480p sdtv mode + 640x480
+--//Native 480p sdtv mode + 640x480
 
 local options = function()
 
 eeObj.WriteMem32(0x001004E4,0xA2620016)
-eeObj.WriteMem32(0x0010CF00,0x24040000) 
+eeObj.WriteMem32(0x0010CF00,0x24040000)
 eeObj.WriteMem32(0x001EA6B4,0x24060000)
-eeObj.WriteMem32(0x002FAF88,0xA0800014)
+eeObj.WriteMem32(0x001EA6B4,0x24060000)
+eeObj.WriteMem32(0x20386720,0x002A0640)
+eeObj.WriteMem32(0x20386740,0x002A0640)
+eeObj.WriteMem32(0x002A0550,0x24020000)
+eeObj.WriteMem32(0x201EA7D0,0xAE0AFCB4)
 
 end
-
 emuObj.AddVsyncHook(options)
 
 --soft filter L3=OFF R3=ON
@@ -177,17 +179,15 @@ if (R3 ~= 0) then
      gsObj.SetUpscaleMode("gpu")
 	end
 end
-
 emuObj.AddVsyncHook(CheckInputs)
-
 ```
 
 This codes run PS2 games descripted in PS4, console has to be homebrew enabled for install, keep in mind due to emulation nature "maybe" games can have bugs in long plays.
 
 ## HOW TO USE:
 ### METHOD 1 - USE custom "CLI" and "LUA" configs for build PKG :
-Use codes above with Kozarov's tool (Look in the end) for build custom .PKG image with SLPM-XXX.XX-CLI.txt and SLPM_XXX.XX.lua values  
-Or download zip > navigate to Playstation_4 folder use files according game.
+Use codes above with Kozarov's tool (Look in the end) for build custom .PKG package with SLPM-XXX.XX-CLI.txt and SLPM_XXX.XX.lua values  
+Or click [download zip](https://github.com/felixthecat1970/gamepatches/archive/refs/heads/main.zip) > navigate to Playstation_4 folder use files match your game.
 
 ### TESTED setups:
 - PS4 - Runs ok
