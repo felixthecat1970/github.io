@@ -199,7 +199,14 @@ This codes run PS2 games descripted in PS4, console has to be homebrew enabled f
 ## HOW TO USE:
 ### METHOD 1 - USE custom "CLI" and "LUA" configs for build PKG :
 Use codes above with Kozarov's tool (Look in the end) for build custom .PKG package with SLPM-XXX.XX-CLI.txt and SLPM_XXX.XX.lua values  
-Or click [download zip](https://github.com/felixthecat1970/gamepatches/archive/refs/heads/main.zip) > navigate to Playstation_4 folder use files match your game.
+Or click [download zip](https://github.com/felixthecat1970/gamepatches/archive/refs/heads/main.zip) > navigate to Playstation_4 folder use files match your game. ***use images below for recomended build
+
+<figure class="half">
+<a href="/gamepatches-blog/assets/images/kztool-p0.jpg"><img src="/gamepatches-blog/assets/images/kztool-p0.jpg"></a>
+<a href="/gamepatches-blog/assets/images/kztool-p1.jpg"><img src="/gamepatches-blog/assets/images/kztool-p1.jpg"></a>
+	<figcaption>PS2 Original Game Covers</figcaption>
+</figure>
+
 
 ### TESTED setups:
 - PS4 - Runs ok
