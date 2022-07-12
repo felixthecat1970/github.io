@@ -204,7 +204,7 @@ Or click [download zip](https://github.com/felixthecat1970/gamepatches/archive/r
 <figure class="half">
 <a href="/gamepatches-blog/assets/images/kztool-p0.jpg"><img src="/gamepatches-blog/assets/images/kztool-p0.jpg"></a>
 <a href="/gamepatches-blog/assets/images/kztool-p1.jpg"><img src="/gamepatches-blog/assets/images/kztool-p1.jpg"></a>
-	<figcaption>PS2 Original Game Covers</figcaption>
+	<figcaption>Kozarov's toll</figcaption>
 </figure>
 
 
