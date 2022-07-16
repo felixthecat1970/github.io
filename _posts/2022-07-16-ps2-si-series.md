@@ -27,7 +27,7 @@ learn how to play it [Gamefaqs](https://gamefaqs.gamespot.com/ps2/925999-shinobi
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can someway understand. 
 
 ## CODE NOTES - STORIES:
-**updating** stories later.....
+**updating** stories later..... but in short finally completed this series codes fixing the cutscene doble speed and calling progresive scan mode (instead only hack common function), PAL version have progressive mode too but still speed up (by 5fps in theory), so i leave withow codes if some find addreses for correct speed 3d engine, a bonus from PAL runs in 50fps helps ps2 EE(CPU) because 60fps hit hard "ps2" emulated cpu so framerate will drop down in heavy, enemy crowded levels, still i include personal profiles for PCSX2-QT runs fine on my setup. 
 
 ## GAMES CODES:
 ### Shinobido: Imashime (忍道 戒 ) (Japan) SLPM_660.91;1) Game CRC = 0x084A6677
