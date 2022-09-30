@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "FelixTheCat1970"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Technical Marketing, Technology advisor, Repair, Building, Upgrading PC - Consoles - Audio - Video"
+  bio    : "Technical Marketing, Tech advisor, Repair, Building, Upgrading PC - Consoles - Audio - Video"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -68,10 +68,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/nicolai_b_r"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/felixthecat1970/gamepatches"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"

@@ -88,12 +88,14 @@ patch=0,EE,202FAF88,extended,A0800014
  
 ```
 gametitle=Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454
-comment=Native 480p sdtv mode + extend 640x480 v2 by felixthecat1970
+comment=Native 480p sdtv mode + extend 640x480 v4 by felixthecat1970
 
-//enable native 480p mode 640x480 !!!disable antialias option in game menu for 640x480!!!
+//480p sdtv mode + 640x480
 patch=0,EE,20292720,extended,A38286E8
-patch=0,EE,202ACA50,extended,24020000
-patch=0,EE,202B3E04,extended,A040D586
+patch=0,EE,202ACA50,extended,0000102D
+patch=0,EE,202B3EB8,extended,0000102D
+patch=0,EE,202B4068,extended,0000102D
+patch=0,EE,002B3D38,extended,24060000
 
 ```
 
