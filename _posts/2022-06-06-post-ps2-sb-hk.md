@@ -69,13 +69,15 @@ In the end keep mind this codes are not perfect or maybe can have better code ca
 
 ```
 gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
-comment=480p native sdtv mode unlock + extend resolution 640x480 v3 by felixthecat1970
+comment=480p native sdtv mode unlock + extend resolution 640x480 v4 by felixthecat1970
 
-//480p + 640x480 res. v3 !!!disable antialias option in game menu for 640x480!!!
+//480p + 640x480 res. v4
 patch=0,EE,201004E4,extended,A2620016
-patch=0,EE,0010CF00,extended,24040000
+patch=0,EE,2010CF00,extended,0000202D
 patch=0,EE,001EA6B4,extended,24060000
-patch=0,EE,202FAF88,extended,A0800014
+patch=0,EE,20386720,extended,002A0640
+patch=0,EE,20386740,extended,002A0640
+patch=0,EE,002A0550,extended,24020000
 ```
 
 ### Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454 v1
