@@ -17,7 +17,7 @@ title: REVERSE-ENGINEERING, GAME CODE, STORIES AND NOTES
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog stories, notes, news, about reverse engineering old game code ps2 ps3 wii others retro games.
-twitter_username: @nicolai_b_r
+#twitter_username: @nicolai_b_r
 github_username: felixthecat1970
 minimal_mistakes_skin: dark
 search: true
