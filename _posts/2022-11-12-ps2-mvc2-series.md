@@ -102,7 +102,7 @@ pcsx2 is a long standing mature emulator and only support this and hardware sony
 ### How to play in...
 Recomended official developers - collaborators sites:
 - PC: - Playstation 2 emulator PCSX2 [Official site pcsx2.net/](https://pcsx2.net/)
-- PS3: - Enable homebrew [Official site ps3xploit.com](http://ps3xploit.com/) and [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
+- PS3: - Enable homebrew [Official site ps3xploit.me](https://www.ps3xploit.me/) and [Official CFW Evilnat thread](https://www.psx-place.com/threads/4-89-evilnat-cfw-w-cobra-v8-3-cex-nobd-nobt-builds.37272/)
 - PS2: - [Recomended guide for enable Hombrew](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
 	- PS2 OPL homebrew [Official site](https://github.com/ps2homebrew/Open-PS2-Loader)
 - PS4:
