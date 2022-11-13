@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "PS2 Marvel vs. Capcom 2: New Age of Heroes full frame mode and PS2>PS4 test build guide"
+title: "PS2 Marvel vs. Capcom 2: New Age of Heroes full frame mode and PS2 > PS4 test build guide"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -9,7 +9,7 @@ tags:
   - PS2
 ---
 
-Marvel vs. Capcom 2: New Age of Heroes is a crossover fighting game developed and published by Capcom published in arcades (naomi) dreamcast, ps2, ps3. xbox.
+Marvel vs. Capcom 2: New Age of Heroes is a crossover fighting game developed and published by Capcom published in arcades (naomi), dreamcast, ps2, ps3. xbox.
 
 <!--more-->
 
@@ -20,7 +20,7 @@ Marvel vs. Capcom 2: New Age of Heroes is a crossover fighting game developed an
 	<figcaption>PS2 Original Game Covers</figcaption>
 </figure>
 
-More info Marvel vs Capcom 2 series: [Wikipedia](https://en.wikipedia.org/wiki/Marvel_vs._Capcom_2:_New_Age_of_Heroes)
+More info Marvel vs Capcom 2 series: [Wikipedia](https://en.wikipedia.org/wiki/Marvel_vs._Capcom_2:_New_Age_of_Heroes) 
 learn how to play it [Wiki Supercombo link](https://wiki.supercombo.gg/w/Marvel_vs_Capcom_2)
 
 ## Disclaimer:
@@ -31,9 +31,9 @@ learning more about GS deveplopment and implementation trying understand how the
 
 
 ## GAMES CODES:
-Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8
-Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767
-Marvel vs. Capcom 2 - New Age of Heroes (Europe) ***(updating next days)***
+Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 
+Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 
+Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (updated) 
 
 - +Enable Full Frame Mode 640x448 (instead common 640x224)
 - +Autoboot - Enable Progressive Scan video mode (ps2 consoles need progressive scan tv setup - for composite setups search "composite" available in repository)
@@ -41,7 +41,8 @@ Marvel vs. Capcom 2 - New Age of Heroes (Europe) ***(updating next days)***
 - +PAL version (Des-Pal-lettized) remove selector and run always in progressive scan
 - +PS4 link build guide (Run game in HD in PS4 9.00 firmware hombrew enabled consoles)
 - +PS4 Build use L3 - R3 Change soft - sharp mode (negible changes)
-- ¬recomended in PCSX2 emulator disable Dithering option for sharper image and use scaling options
+- +ADD PCSX2 gamesettings profiles with recomended settings
+!!! for better image in PCSX2 emulator disable Dithering option for sharper image and use 2x+=> scaling options
 
 **Codes included in .zip download or direct search in github repository in next steps.
 
@@ -95,9 +96,8 @@ yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models lik
 something you are doign wrong or using bad dumped image from your game, redump game or check hash integrity in [Redump.org](http://redump.org/discs/system/ps2/).
 search correct tutorial each console look below in how to play in.. section
 
-### not working with others emulators, forks "put your emu name here______, android, other devices ?
-pcsx2 is a long standing mature emulator and i only support this and hardware sony consoles, other emulators ask in their respective forums chats etc for cheat load support, try patch image directly for run it
-if you have problems to load .pnach files. 
+### not working with others emulators, forks, "put your emu name here" ______, android, other devices, etc ?
+pcsx2 is a long standing mature emulator and only support this and hardware sony consoles, other emulators, devices etc ask in their respective forums chats etc for cheat load support, try patch image directly for run it if you have problems to load XXXXXXX.pnach files. 
 
 ### How to play in...
 Recomended official developers - collaborators sites:
