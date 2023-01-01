@@ -23,8 +23,7 @@ Recomeded lectures in end of post
 
 Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
+Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
