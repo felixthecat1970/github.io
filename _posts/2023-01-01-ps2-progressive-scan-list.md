@@ -66,6 +66,8 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 3. load the xxxxx.iso or xxxxxx.bin game dump in ps2_patch_engine tool and select "PNACH" option
 4. copy codeblock copy all "*patch=XXXXXX..etc*" code lines and paste in ps2_patch_engine (white window) and press "PATCH"
 5. if you do all correctly the app will generate a " your-game-xxxxxx_pached.iso or .bin file, use this file for load in your console PS2 or build (PS3,PS4)
+!!! This will change your game dump CRC keep in mind if you use patched dumps and other cheats (crc name will not match in this scenario need to be changed)!!! 
+
 
 ### TESTED setups:
 - PC: - RYZEN 3400G - VEGA 11 + PCSX2-QT-avx2 (working ok)
