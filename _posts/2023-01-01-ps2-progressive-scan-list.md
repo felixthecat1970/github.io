@@ -51,13 +51,13 @@ still need to correct more info about it so i leave this notes in updating......
 ## HOW TO USE:
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
-1-Look game name you want
-2-open new .txt note editor and copy paste the code block lines (all)
-3-save the file with this format look game name CRC = 0x XXXXXXXX
-in windows save as > filename.pnach and "save as type All files (*.*)" for correct extension.
-example:
-(Metal slug 3D (Japan) SLPS_256.50;1) Game CRC = 0x7D8D8BFA) the new file should be named " 7D8D8BFA.pnach " 
-4-copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator
+1-Look game name you want 
+2-open new .txt note editor and copy paste the code block lines (all) 
+3-save the file with this format look game name CRC = 0x XXXXXXXX 
+in windows save as > filename.pnach and "save as type All files (*.*)" for correct extension. 
+example: 
+(Metal slug 3D (Japan) SLPS_256.50;1) Game CRC = 0x7D8D8BFA) the new file should be named " 7D8D8BFA.pnach "  
+4-copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator 
 
 ### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
 use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
