@@ -9,7 +9,7 @@ tags:
   - PS2
 ---
 
-Playstation 2 custom codes list wich enable progressive scan mode for NTSC PAL best compactible image output for consoles and emulators.
+Playstation 2 custom codes list wich enable progressive scan mode for NTSC / PAL tv image output for consoles and emulators.
 
 <!--more-->
 
@@ -21,9 +21,9 @@ Recomeded lectures in end of post
 	<figcaption>PS2 Cosole Models</figcaption>
 </figure>
 
-Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
+Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also in official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew; codes enable autobooting in NTSC or Progressive scan tv mode).
 
-Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
+Open List (updated realtime) [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
@@ -46,18 +46,19 @@ remember progressive scan can be used officialy in selected titles this feature 
 
 also other advantages is progressive call "full frame mode" instead of "field render mode" for explain in easy manner this mode send final frame in vertical reduced image example: 512x224 to screen firts scan out and the other half 512x224 in next scan out for performance reasons commonly using interlaced feature of CRT tv (that time globally crt tv was all interlaced signal) but now in monitors or hd tv this will look bad (news tv monitors no need interlacing and is handled poorly this legacy image technique).
 
+Some people can be wondering but "GSM homebrew, HDTV loaders, Chips, similar" etc do de same what is the diference with this? like i expained in this example post [Here](https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/post-ps2-sb-hk/) gsm, homebrew or similar hack the main function "sce main functions" related to video with a custom developed build code for "call desired tv mode values" detailed in Sony GS development manual, the thing is not always games works as desired, behave weird, have bugs or not compactible this because games are deveploped diferently each one, debugging mips game code i see some games call other "custom" values, use custom routines, bypass general sony guidelines, overwrite defined values, use "programing" tricks bypassing recomended sony guidelines etc; so this codes is another alternate aproach, debugging game executable i see many games have this tv modes disabled, partially coded or need to be called by main custom functions, so enabling will call the parameters same way like was designed calling correct functuions, routines for correct mode display and spee logic; i guessing this modes was not enabled because need more test, debug, bugs, for tight timelines, was a novelty that time so no risk whole proyect with times, sues, support warranties etc.. etc; keep in mid this codes works testing couple hours works ok but in long play can have bugs so no warranty either.
 still need to correct more info about it so i leave this notes in updating......
 
 ## HOW TO USE:
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
-1-Look game name you want 
-2-open new .txt note editor and copy paste the code block lines (all) 
-3-save the file with this format look game name CRC = 0x XXXXXXXX 
+1. Look game name you want
+2. open new .txt note editor and copy paste the code block lines (all) 
+3. save the file with this format look game name CRC = 0x XXXXXXXX 
 in windows save as > filename.pnach and "save as type All files (*.*)" for correct extension. 
 example: 
 (Metal slug 3D (Japan) SLPS_256.50;1) Game CRC = 0x7D8D8BFA) the new file should be named " 7D8D8BFA.pnach "  
-4-copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator 
+4. copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator 
 
 ### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
 use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
@@ -67,7 +68,6 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 4. copy codeblock copy all "*patch=XXXXXX..etc*" code lines and paste in ps2_patch_engine (white window) and press "PATCH"
 5. if you do all correctly the app will generate a " your-game-xxxxxx_pached.iso or .bin file, use this file for load in your console PS2 or build (PS3,PS4)
 !!! This will change your game dump CRC keep in mind if you use patched dumps and other cheats (crc name will not match in this scenario need to be changed)!!! 
-
 
 ### TESTED setups:
 - PC: - RYZEN 3400G - VEGA 11 + PCSX2-QT-avx2 (working ok)
@@ -87,7 +87,10 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
   - Read the post "**Sins of PS2**" in [https://www.patreon.com/dobiestation](https://www.patreon.com/dobiestation)
 
 ## FAQ:
-### How to setup my console for better image ?
+### GSM HDTV etc homebrew do the same what is the diference? 
+read my code notes stories section i explain there.
+
+### How to setup my console for better image ? 
 check RetroRGB best source guides, cables, setups for retro playing https://www.retrorgb.com/
 
 ### This codes is for ? 
@@ -97,7 +100,7 @@ Use in PC emulator PCSX2-QT, PS4 Homebrew enabled consoles (requires build), PS3
 yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and a method load cheats files format .pnach, i read PS2 OPL homebrew can load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader) or gameshark alike devices (you need to convert codes which is hard); my recomended step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you can verify game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### not working for me PCSX2,PS2.PS3,PS4?
-something you are doign something wrong or using bad dumped image from your game, redump game or check hash integrity in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check. search correct tutorial each console look below in how to play in.. section
+something you are doign something wrong or using bad dumped image from your game, redump game or check hash sha-1 integrity comapre database in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check. search correct tutorial each console look below in how to play in.. section
 
 ### not working with others emulators, forks "put your emu name here______, android, other devices ?
 pcsx2 is a long standing mature emulator and i only support this and hardware sony consoles, other emulators ask in their respective forums chats etc for cheat load support, try patch image directly for run it if you have problems to load .pnach files. 
@@ -110,4 +113,4 @@ Recomended official developers - collaborators sites:
 	- PS2 OPL homebrew [Official site](https://github.com/ps2homebrew/Open-PS2-Loader)
 - PS4:
 	- Need enabled homebrew console (posible in all ps4 models with firmware 1.00 > 9.00)
-	- Need to create .PKG and install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
+	- Need to create install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
