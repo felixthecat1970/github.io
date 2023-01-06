@@ -21,7 +21,7 @@ Recomeded lectures in end of post
 	<figcaption>PS2 Cosole Models</figcaption>
 </figure>
 
-Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also in official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew; codes enable autobooting in NTSC or Progressive scan tv mode).
+Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew apps); codes enable autobooting Progressive scan tv mode or NTSC (in some PAL only games).
 
 Open List (updated realtime) [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
@@ -91,19 +91,19 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 read my code notes stories section i explain there.
 
 ### How to setup my console for better image ? 
-check RetroRGB best source guides, cables, setups for retro playing https://www.retrorgb.com/
+check [RetroRGB.com](https://www.retrorgb.com/) best source guides, cables, setups for retro playing.
 
 ### This codes is for ? 
-Use in PC emulator PCSX2-QT, PS4 Homebrew enabled consoles (requires build), PS3 CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 CONSOLES (with component progressive tv setups) incompactible with interleaced signals setups like rf, rca white/red/yellow cables (look if game has "composite" codes folder for use in common interlaced signal setups).
+Use in PC emulator PCSX2-QT, PS4 Homebrew enabled consoles, PS3 CONSOLES (hdmi-component 480p-720p-1080p setups only), PS2 CONSOLES (with component progressive tv setups) incompactible with interleaced signals setups like rf, rca white/red/yellow cables (look if game has "composite" codes folder for use in common interlaced signal setups).
 
 ### This can be used with original game disks ?
-yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and a method load cheats files format .pnach, i read PS2 OPL homebrew can load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader) or gameshark alike devices (you need to convert codes which is hard); my recomended step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you can verify game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
+yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and a "method" load cheats files in .pnach format, i read PS2 OPL homebrew can convert and load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader); gameshark alike devices (you need to convert codes which is hard); my recomended steep is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try easy dump image .iso or .bin with imgburn app (windows), brazero or similar app (linux); you can verify game dump with redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### not working for me PCSX2,PS2.PS3,PS4?
-something you are doign something wrong or using bad dumped image from your game, redump game or check hash sha-1 integrity comapre database in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check. search correct tutorial each console look below in how to play in.. section
+something you are doign something wrong, not reading instructions correctly or using bad dumped image from your game, redump game or check hash sha-1 integrity compare database in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check. search correct tutorial each console look below in how to play in.. section
 
-### not working with others emulators, forks "put your emu name here______, android, other devices ?
-pcsx2 is a long standing mature emulator and i only support this and hardware sony consoles, other emulators ask in their respective forums chats etc for cheat load support, try patch image directly for run it if you have problems to load .pnach files. 
+### not working with others emulators, forks "put your emu name here______," android, other devices ?
+pcsx2 is a long standing mature emulator and i only support this and hardware sony consoles, other emulators ask in their respective forums chats etc for cheat load support, also try patch image directly if you have problems to load .pnach files. 
 
 ### How to play in...
 Recomended official developers - collaborators sites:
