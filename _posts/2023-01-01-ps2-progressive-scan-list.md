@@ -18,9 +18,9 @@ Playstation 2 custom codes list wich enable progressive scan TV mode for NTSC / 
 	<figcaption>PS2 Console Models click more info</figcaption>
 </figure>
 
-Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew apps); codes enable autobooting Progressive scan tv mode or NTSC (in some PAL only games).
-
 Open List (updated realtime) [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
+
+Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew apps); codes enable autobooting Progressive scan tv mode or NTSC (in some PAL only games).
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
