@@ -25,7 +25,7 @@ Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
 
-Code Notes Stories in the end post jump [Link](#1)
+Code Notes Stories in the end post jump [Link](https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/ps2-progressive-scan-list/#code-notes---stories)
 
 ## HOW TO USE:
 
@@ -93,7 +93,7 @@ Recomended official developers - collaborators sites:
 	- Need enabled homebrew console (posible in all ps4 models with firmware 1.00 > 9.00)
 	- Need to create install package use recomended tool by kozarovv [LINK](https://www.psx-place.com/threads/release-ps2-fpkg-0-6-by-jabu-new-tool-to-convert-ps2-games-for-ps4.30350/)
 	
-## CODE NOTES - STORIES: {#1}
+## CODE NOTES - STORIES
 Happy new year; now 2023 a little busy with (temporal job) so no time for debug codes freely; a couple weeks thinking how to optimize time for publish more codes i decide to post a sheet table can make changes or updates online anywhere and keep easy record anywhere, mainly i will take efforts to "progressive scan type" codes the ps2 support many image output NTSC, PAL, PROGRESSIVE SCAN, vga, 720p, 1080i (hd formats works but it will crash due limited vram) so the best format was"progressive scan"; a novelty in the ps2 era showing better quality image with required setup (mainly a crt tv with progressive scan support and component cables the green-blue-yellow-white-red ones) here a basic comparation between formats:
 
 For american / Japan releases this was the standard:
