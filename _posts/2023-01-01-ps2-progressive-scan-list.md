@@ -66,7 +66,7 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 
 ## FAQ:
 ### GSM HDTV etc homebrew do the same what is the diference? 
-read my code notes stories section i explain there.
+read my code notes stories section [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true) i explain there.
 
 ### How to setup my console for better image ? 
 check [RetroRGB.com](https://www.retrorgb.com/) best source guides, cables, setups for retro playing.
