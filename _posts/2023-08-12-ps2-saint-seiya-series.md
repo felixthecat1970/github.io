@@ -44,9 +44,11 @@ Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 +optional codes for Hades changed the framebufer config for less blurry image in emulators (disable if you have problems on original hardware or consoles)
 
 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) sha1:919baf4e53ed2838181d1ee9de88be9ef51ee8e7
+
 Saint Seiya - Sanctuary Juunikyuu-hen (Japan) sha1:f7009062d4a685a4adbd313fc7f79e1ad058652a
 
 Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) sha1:6da748b0a966a884fc08b3d0d56ffb1bf51848c7
+
 Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) sha1:fdd7b2169f2bb687778d358a53609664f92694fd
 + Optional Convert (Japan) version hades to multilanguage
 + Optional Convert (Europe) version to japanese (intro still play genereic song for europe region)
@@ -67,7 +69,7 @@ example:
 ### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
 use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
 1. open ps2_patch_engine tool in pc (windows only)
-2. look in table/sheet the game according your game version / region
+2. look in table/sheet or xxxxxxxx.pnach file according your game version / region
 3. load the xxxxx.iso or xxxxxx.bin game dump in ps2_patch_engine tool and select "PNACH" option
 4. copy codeblock copy all "*patch=XXXXXX..etc*" code lines and paste in ps2_patch_engine (white window) and press "PATCH"
 5. if you do all correctly the app will generate a " your-game-xxxxxx_pached.iso or .bin file, use this file for load in your console PS2 or build for (PS3,PS4)
@@ -75,7 +77,7 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 ### TESTED setups:
 - PC: - RYZEN 3400G - VEGA 11 + PCSX2-QT-avx2 (working ok)
 - PS3 SLIM (USA MODEL) - CFW evilnat 4.89 + webmanmod (UNTESTED)
-- PS3 with PS2 hardware models CECHAxx · CECHBxx · CECHCxx · CECHExx (USA/JAPAN) 20gb/60gb only (UNTESTED)
+- PS3 with PS2 hardware models CECHAxx · CECHBxx · CECHCxx · CECHExx (USA/JAPAN) 20gb/60gb only (TESTED)
 - PS2 - (UNTESTED) *look How to play end post
 - PS4 - (UNTESTED *RECOMEDED PS4 / pro 9.00 HOMEBREW ENABLED, last to date goldhen working ok)
 
@@ -100,7 +102,7 @@ Use in PC emulator PCSX2-QT, PS4 Homebrew enabled consoles (requires build custo
 yes, but only in ps2 consoles and ps3 fat ps2 backward compactibility models like the 60gb-20gb USA/JAPAN and a method load cheats files format .pnach, i read PS2 OPL homebrew can load cheats but i have not tested yet more info [PS2 OPL HOMEBREW](https://github.com/ps2homebrew/Open-PS2-Loader) or gameshark alike devices (you need to convert codes which is hard); my recomended step is have your console homebrew enabled, dump your game in pc and patch it; for more tech oriented/seasoned people "how to dump correctly" [link](http://wiki.redump.org/index.php?title=Dumping_Guides) or try imgburn app in windows, brazero or similar app (linux); you can verify game dump in redump database [HERE](http://redump.org/discs/system/ps2/).
 
 ### not working for me PCSX2,PS2.PS3,PS4?
-something you are doign something wrong or using bad dumped image from your game, redump game or check hash integrity in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check. search correct tutorial each console look below in how to play in.. section
+something you are doign something wrong or using bad dumped image from your game, redump game or check hash integrity in [Redump.org](http://redump.org/discs/system/ps2/) using 7zip https://www.7-zip.org/download.html opensource file compresor sha1 check; also ps3 newer models and ps4 are experimental look psxplace forums for help; search correct tutorial each console look below in how to play in.. section
 
 ### not working with others emulators, forks "put your emu name here______, android, other devices ?
 pcsx2 is a long standing mature emulator and i only support this and hardware sony consoles, other emulators ask in their respective forums chats etc for cheat load support, try patch image directly for run it if you have problems to load .pnach files. 
