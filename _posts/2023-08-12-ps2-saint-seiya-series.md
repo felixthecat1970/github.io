@@ -34,10 +34,11 @@ This is my code finds, ideas, information, experiments, deduction in a empirical
 ## CODE NOTES - STORIES:
 Hello, finally working and withow time, but for mental trainning in weekends i going to start cleaning a bunch codes i made couple months ago: saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese) and europe (only in blurry PAL 50hz/25fps tv mode) so debugging i find the games has locked their video modes and languages so, with this codes you can play European version in NTSC tv mode and framerate unlocked ( 60fps) but for fortunate people has the japanese version you can play in 4 languages, yes the languages files are hidden (or maybe unfinished) the codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music, like always use my tutorials.
 
-Demo gameplay:
+Demo gameplay: (no forget change youtube quality to 1080p/60fps)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OTQWrellI9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Codes:
+## Codes:
 +All in NTSC 60hz Video mode
 +All with 60 fps unlock
 +optional codes for Hades changed the framebufer config for less blurry image in emulators (disable if you have problems on original hardware or consoles)
@@ -50,7 +51,7 @@ Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) sha1:fdd7b2169f2bb687778d358a536
 + Optional Convert (Japan) version hades to multilanguage
 + Optional Convert (Europe) version to japanese (intro still play genereic song for europe region)
 
-For codes Check my github repo [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats] / or go to romhacking.net some days.
+For codes Check my github repo [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats) / or go to romhacking.net some days.
 
 ## HOW TO USE:
 
