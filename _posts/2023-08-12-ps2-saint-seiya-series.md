@@ -47,7 +47,7 @@ Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) sha1:fdd7b2169f2bb687778d358a536
 + Optional Convert (Japan) version hades to multilanguage
 + Optional Convert (Europe) version to japanese (intro still play genereic song for europe region)
 
-For codes Check my github repo here / or go to romhacking.net post here
+For codes Check my github repo [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats] / or go to romhacking.net some days.
 
 ## HOW TO USE:
 
