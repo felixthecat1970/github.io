@@ -35,7 +35,7 @@ This is my code finds, ideas, information, experiments, deduction in a empirical
 Hello, finally working and withow time, but for mental trainning in weekends i going to start cleaning a bunch codes i made couple months ago: saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese) and europe (only in blurry PAL 50hz/25fps tv mode) so debugging i find the games has locked their video modes and languages so, with this codes you can play European version in NTSC tv mode and framerate unlocked ( 60fps) but for fortunate people has the japanese version you can play in 4 languages, yes the languages files are hidden (or maybe unfinished) the codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music, like always use my tutorials.
 
 Demo gameplay:
-https://youtu.be/OTQWrellI9o
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OTQWrellI9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Codes:
 +All in NTSC 60hz Video mode
