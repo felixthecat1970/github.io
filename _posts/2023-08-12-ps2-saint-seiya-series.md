@@ -28,6 +28,8 @@ Also check updates in my online code list Here i wil update codes witch enable t
 
 Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
+##Updated codes in github repo, here i leave initial release info
+
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
 
@@ -39,8 +41,9 @@ Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OTQWrellI9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Codes:
-+All in NTSC 60hz Video mode
-+All with 60 fps unlock
+~~+All in NTSC 60hz Video mode~~ only hades versions (gameplay bug combos not connect to opponent)
+~~+All with 60 fps unlock~~ only Hades versions, (gameplay bug combos not connect to opponent)
+-partial 50fps code for pal sanctuary version (history and start battle intros)
 +optional codes for Hades changed the framebufer config for less blurry image in emulators (disable if you have problems on original hardware or consoles)
 
 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) sha1:919baf4e53ed2838181d1ee9de88be9ef51ee8e7
