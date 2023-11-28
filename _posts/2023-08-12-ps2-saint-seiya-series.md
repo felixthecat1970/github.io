@@ -43,28 +43,27 @@ Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compactible HB, unknow comapctibility for ps2 soft only models), PS4(Homebrew enabled)
 By felixthecat1970
 
-Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar
-Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)
-Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)
+Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar\
+Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)\
+Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)\
 
-How to install:
-Verify you game dump ISO sha1 hash before start and follow instructions each pach.
+How to install:\
+Verify you game dump ISO sha1 hash before start and follow instructions each pach.\
 
-Downloads:
+Downloads:\
 
 !!Warning!! patch modifies parameters shared by memory card saves if you using a save prgress, in test if you have already save , game take memory card save data by default (all character patch unlock will not work)
 before test or use  make a bakup\copy of your save game for prevent undesired data loss
 like always patch have not guarantee use under you decision.
 
 -----------------------------------------------------------------------------------------------------------
-Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476 
-sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a 
-+unlock 60fps (consoles 30 - 60 variable) 
-+unlock all chara for versus gameplays 
+Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476\
+sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a\
++unlock 60fps (consoles 30 - 60 variable)\
++unlock all chara for versus gameplays\
 
-[Saint Seiya - Sanctuary (Japan)-patch(4.3).7z](https://www.mediafire.com/file/3268rhtveu5o9ik/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%25284.3%2529.7z/file)
-
-[Saint Seiya - Sanctuary (Japan)-patch(16.9).7z](https://www.mediafire.com/file/souomkfw167u5d9/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%252816.9%2529.7z/file)
+[Saint Seiya - Sanctuary (Japan)-patch(4.3).7z](https://www.mediafire.com/file/3268rhtveu5o9ik/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%25284.3%2529.7z/file)\
+[Saint Seiya - Sanctuary (Japan)-patch(16.9).7z](https://www.mediafire.com/file/souomkfw167u5d9/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%252816.9%2529.7z/file)\
 
 -----------------------------------------------------------------------------------------------------------
 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) -4:3 SLES-53201 
