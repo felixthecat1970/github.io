@@ -101,6 +101,8 @@ sha1: 6da748b0a966a884fc08b3d0d56ffb1bf51848c7
 ---------------------------------------------------------------------------------------------------------------  
 ## SAINT SEIYA SANCTUARY (JAPAN) EARLY USA PARAMETERS
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2knZCVXxd4Y?si=xEfo34rc7TFzop7R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Debugging this game i find a partial instructions for a early work in USA versions witch never was released for USA market, display ATARI logo and Japanese intro but with other audio, a "cover" of the song "I Ran (So Far Away)" ; rest game still is in japanese, files exist for main langs version but sadly AFS file is linked to executable .elf has a table with related positions changing AFS give errors or crash due size files and i have not know how to find this table in elf executable.
 
 For Audio blocked countries is this song  
