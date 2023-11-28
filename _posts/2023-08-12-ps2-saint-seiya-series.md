@@ -48,9 +48,9 @@ Patches 16:9 with widescreed patch for modern TVs (warning many game assets are 
 Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)  
 
 How to install:  
-Verify you game dump ISO sha1 hash before start and follow instructions each pach.  	
+Verify you game dump ISO sha1 hash before start, rename to redump filename or follow instructions in pach.  	
 
-Downloads:  
+##DOWNLOADS:(RECOMENDED)  
 
 !!Warning!! patch modifies parameters shared by memory card saves if you using a save prgress, in test if you have already save , game take memory card save data by default (all character patch unlock will not work)
 before test or use  make a bakup\copy of your save game for prevent undesired data loss
@@ -99,23 +99,40 @@ sha1: 6da748b0a966a884fc08b3d0d56ffb1bf51848c7
 [Saint Seiya - The Hades (Europe)-PATCH(16.9)](https://www.mediafire.com/file/g2jw45swfv843hj/Saint_Seiya_-_The_Hades_%2528Europe%2529-PATCH%252816.9%2529.7z/file)  
 
 ---------------------------------------------------------------------------------------------------------------  
+## SAINT SEIYA SANCTUARY (JAPAN) EARLY USA PARAMETERS
 
-## HOW TO USE PNACH PCSX2 FILE DATA "LEGACY" (FOR ADVANCED USERS):
+Debugging this game i find a partial instructions for a early work in USA versions witch never was released for USA market, display ATARI logo and Japanese intro but with other audio, a "cover" of the song "I Ran (So Far Away)" ; rest game still is in japanese, files exist for main langs version but sadly AFS file is linked to executable .elf has a table with related positions changing AFS give errors or crash due size files and i have not know how to find this table in elf executable.
+
+For Audio blocked countries is this song  
+A Flock Of Seagulls - I Ran (So Far Away)  
+
+Here the patch is you want to test or blocked countries with your game dump ISO
+
+Require dumped ISO
+Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476
+sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a  original redump verified
+-Early USA Build parameters
+[Saint Seiya - Sanctuary (Japan)-earlyUSAPATCH](https://www.mediafire.com/file/c61ei6g1q9xsgcn/Saint_Seiya_-_Sanctuary_%2528Japan%2529-earlyUSAPATCH.7z/file)
+
+
+## HOW TO USE PNACH PCSX2 FILES DATA "LEGACY" (FOR ADVANCED USERS):
+
+Check PNACH files updated [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats)
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
-1-Look game name you want
-2-open .pnach with notepad app or use new .txt note editor and copy paste the code block lines (all)
-3-save the file with this name format, use your game name CRC = 0x XXXXXXXX
-in windows save as > filename.pnach and "save as type All files (*.*)" for correct extension.
-example:
-(Metal slug 3D (Japan) SLPS_256.50;1) Game CRC = 0x7D8D8BFA) the new file should be named " 7D8D8BFA.pnach " 
-4-copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator
+1-Look game name you want  
+2-open .pnach with notepad app or use new .txt note editor and copy paste the code block lines (all)  
+3-save the file with this name format, use your game name CRC = 0x XXXXXXXX  
+in windows save as > filename.pnach and "save as type All files (*.*)" for correct extension.  
+example:  
+(Metal slug 3D (Japan) SLPS_256.50;1) Game CRC = 0x7D8D8BFA) the new file should be named " 7D8D8BFA.pnach "   
+4-copy file to "cheats" folder in emulator and enable "cheats" option in PCSX2 emulator  
 
-### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC  
-use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)  
-1. open ps2_patch_engine tool in pc (windows only)
-2. look in table/sheet or xxxxxxxx.pnach file according your game version / region
-3. load the xxxxx.iso or xxxxxx.bin game dump in ps2_patch_engine tool and select "PNACH" option
+### METHOD 2 - APPLY/PATCH DIRECTLY GAME DUMPS .BIN/CUE=CD or .ISO=DVD FOR PS2/PS3/PS4/PC    
+use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/)    
+1. open ps2_patch_engine tool in pc (windows only)  
+2. look in table/sheet or xxxxxxxx.pnach file according your game version / region  
+3. load the xxxxx.iso or xxxxxx.bin game dump in ps2_patch_engine tool and select "PNACH" option  
 4. copy codeblock copy all "*patch=XXXXXX..etc*" code lines and paste in ps2_patch_engine (white window) and press "PATCH"
 5. if you do all correctly the app will generate a " your-game-xxxxxx_pached.iso or .bin file, use this file for load in your console PS2 or build for (PS3,PS4)
 
