@@ -24,11 +24,7 @@ Recomeded lectures in end of post
 	<figcaption>PS2 Original Game Covers</figcaption>
 </figure>
 
-Optional online code list others games Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
-
-Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
-
-##UPDATED POST NOV 2023
+## UPDATED POST NOV 2023
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
@@ -38,17 +34,17 @@ Hello, finally working and withow time, but for mental trainning in weekends i g
 
 Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
 
-PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compatible HB, unknow compactibility for ps2 soft only models), PS4(Homebrew enabled)  
-By felixthecat1970  
+PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compatible HB, unknow compactibility for ps2 soft only models), PS4(Homebrew enabled)    
+By felixthecat1970    
 
-Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar  
-Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)  
-Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)  
+Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar    
+Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)      
+Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)    
 
-How to install:  
-Verify you game dump ISO sha1 hash before start, rename to redump filename or follow instructions in pach.  	
+How to install:    
+Verify you game dump ISO sha1 hash before start, rename to redump filename or follow instructions in pach.    	
 
 ##DOWNLOADS:(RECOMENDED)  
 
@@ -101,7 +97,7 @@ sha1: 6da748b0a966a884fc08b3d0d56ffb1bf51848c7
 ---------------------------------------------------------------------------------------------------------------  
 ## SAINT SEIYA SANCTUARY (JAPAN) EARLY USA PARAMETERS
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2knZCVXxd4Y?si=xEfo34rc7TFzop7R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2knZCVXxd4Y?si=xEfo34rc7TFzop7R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
 
 Debugging this game i find a partial instructions for a early work in USA versions witch never was released for USA market, display ATARI logo and Japanese intro but with other audio, a "cover" of the song "I Ran (So Far Away)" ; rest game still is in japanese, files exist for main langs version but sadly AFS file is linked to executable .elf has a table with related positions changing AFS give errors or crash due size files and i have not know how to find this table in elf executable.
 
@@ -143,6 +139,10 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 - PS3 with PS2 hardware models CECHAxx · CECHBxx · CECHCxx · CECHExx (USA/JAPAN) 20gb/60gb only (TESTED)
 - PS2 - (UNTESTED) *look How to play end post
 - PS4 - (UNTESTED *RECOMEDED PS4 / pro 9.00 HOMEBREW ENABLED, last to date goldhen working ok)
+
+Optional online code list others games Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
+
+Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
 ### RECOMENDED LECTURES THANKS TO:
 - Title of article: Playstation 2 Architecture - A Practical Analysis
