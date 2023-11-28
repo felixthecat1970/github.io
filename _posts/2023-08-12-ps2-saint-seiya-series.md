@@ -38,9 +38,9 @@ Hello, finally working and withow time, but for mental trainning in weekends i g
 
 Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
 
-PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compactible HB, unknow comapctibility for ps2 soft only models), PS4(Homebrew enabled)  
+PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compatible HB, unknow compactibility for ps2 soft only models), PS4(Homebrew enabled)  
 By felixthecat1970  
 
 Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar  
