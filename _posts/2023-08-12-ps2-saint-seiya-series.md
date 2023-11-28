@@ -9,7 +9,7 @@ tags:
   - PS2
 ---
 
-Playstation 2 custom codes for saint seiya game series for consoles and emulators.
+Playstation 2 custom patches for saint seiya game series for PC and consoles.
 
 <!--more-->
 
@@ -24,11 +24,11 @@ Recomeded lectures in end of post
 	<figcaption>PS2 Original Game Covers</figcaption>
 </figure>
 
-Also check updates in my online code list Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
+Optional online code list others games Here i wil update codes witch enable this image modes in compactible games, in offcial games (not need for combo button or weird button combinations), and other surprises as PAL > NTSC native codes with correct sync audio - video (most cases) check list here (updated online when changes occur)
 
 Open table [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
-##Updated codes in github repo, here i leave initial release info
+##UPDATED POST NOV 2023
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
@@ -38,30 +38,76 @@ Hello, finally working and withow time, but for mental trainning in weekends i g
 
 Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OTQWrellI9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Codes:
-~~+All in NTSC 60hz Video mode~~ only hades versions (gameplay bug combos not connect to opponent)
-~~+All with 60 fps unlock~~ only Hades versions, (gameplay bug combos not connect to opponent)
--partial 50fps code for pal sanctuary version (history and start battle intros)
-+optional codes for Hades changed the framebufer config for less blurry image in emulators (disable if you have problems on original hardware or consoles)
+PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compactible HB, unknow comapctibility for ps2 soft only models), PS4(Homebrew enabled)
+By felixthecat1970
 
-Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) sha1:919baf4e53ed2838181d1ee9de88be9ef51ee8e7
+Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar
+Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)
+Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)
 
-Saint Seiya - Sanctuary Juunikyuu-hen (Japan) sha1:f7009062d4a685a4adbd313fc7f79e1ad058652a
+How to install:
+Verify you game dump ISO sha1 hash before start and follow instructions each pach.
 
-Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) sha1:6da748b0a966a884fc08b3d0d56ffb1bf51848c7
+Downloads:
 
-Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) sha1:fdd7b2169f2bb687778d358a53609664f92694fd
-+ Optional Convert (Japan) version hades to multilanguage
-+ Optional Convert (Europe) version to japanese (intro still play genereic song for europe region)
+!!Warning!! patch modifies parameters shared by memory card saves if you using a save prgress, in test if you have already save , game take memory card save data by default (all character patch unlock will not work)
+before test or use  make a bakup\copy of your save game for prevent undesired data loss
+like always patch have not guarantee use under you decision.
 
-For codes Check my github repo [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats) 
+-----------------------------------------------------------------------------------------------------------
+Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476
+sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a 
++unlock 60fps (consoles 30 - 60 variable)
++unlock all chara for versus gameplays
 
-## INCLUDE ISO IMAGE PATCH FILES (RECOMENDED)
-For PATCH Check my github repo [here](https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Saint%20seiya%20(Series)/cheats) and follow "Patch readme isntructions"
+Saint Seiya - Sanctuary (Japan)-patch(4.3).7z
+https://www.mediafire.com/file/3268rh...
+Saint Seiya - Sanctuary (Japan)-patch(16.9).7z
+https://www.mediafire.com/file/souomk...
 
-## HOW TO USE (FOR ADVANCED USERS):
+-----------------------------------------------------------------------------------------------------------
+Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) -4:3 SLES-53201
+sha1: 919baf4e53ed2838181d1ee9de88be9ef51ee8e7 
++unlock max 50fps for (story - battle intros)
++unlock all chara for versus gameplays
+-disabled patch NTSC, video intro and 60fps due a bug (in gameplay you can't make combos hits)
+
+Saint Seiya - The Sanctuary (Europe)-patch(4.3).7z
+https://www.mediafire.com/file/bmwx10...
+-patch not available for intro, NTSC, 60fps  -japanese version works ok,.. but japnaese only--- because bug in gameplay (you can't make combo hits), NTSC and 60fps codes for PCSX2 are available in github repo.
+
+-----------------------------------------------------------------------------------------------------------
+Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) SLPS-25744
+sha1: fdd7b2169f2bb687778d358a53609664f92694fd 
++unlock multilanguage options
++unlock 60fps (consoles 30 - 60 variable)
++unlock all chara for versus gameplays
+
+Saint Seiya - The Hades (Japan)-patch(4.3).7z (multi-lang unlocked)
+https://www.mediafire.com/file/bgu34t...
+Saint Seiya - The Hades (Japan)-patch(16.9).7z (multi-lang unlocked)
+https://www.mediafire.com/file/hw0r77...
+Saint Seiya - The Hades (Japan)-patch-JAP(4.3).7z (japanese only)
+https://www.mediafire.com/file/s2bzh5...
+
+-------------------------------------------------------------------------------------------------------------
+Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) SLES-54162
+sha1: 6da748b0a966a884fc08b3d0d56ffb1bf51848c7
++restore video intro from japanese release
++enable NTSC 60hz
++unlock 60fps (consoles 30 - 60 variable)
++unlock all chara for versus gameplays
+
+Saint Seiya - The Hades (Europe)-PATCH(4.3).7z
+https://www.mediafire.com/file/rvc8on...
+Saint Seiya - The Hades (Europe)-PATCH(16.9)
+https://www.mediafire.com/file/g2jw45...
+---------------------------------------------------------------------------------------------------------------
+
+
+## HOW TO USE PNACH PCSX2 FILE DATA "LEGACY" (FOR ADVANCED USERS):
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
 1-Look game name you want
