@@ -108,12 +108,11 @@ A Flock Of Seagulls - I Ran (So Far Away)
 
 Here the patch is you want to test or blocked countries with your game dump ISO
 
-Require dumped ISO
-Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476
-sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a  original redump verified
--Early USA Build parameters
-[Saint Seiya - Sanctuary (Japan)-earlyUSAPATCH](https://www.mediafire.com/file/c61ei6g1q9xsgcn/Saint_Seiya_-_Sanctuary_%2528Japan%2529-earlyUSAPATCH.7z/file)
-
+Require dumped ISO  
+Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476  
+sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a  original redump verified  
+-Early USA Build parameters  
+[Saint Seiya - Sanctuary (Japan)-earlyUSAPATCH](https://www.mediafire.com/file/c61ei6g1q9xsgcn/Saint_Seiya_-_Sanctuary_%2528Japan%2529-earlyUSAPATCH.7z/file)  
 
 ## HOW TO USE PNACH PCSX2 FILES DATA "LEGACY" (FOR ADVANCED USERS):
 
