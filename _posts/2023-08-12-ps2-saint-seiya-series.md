@@ -36,17 +36,17 @@ Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1xTtF_FWlKI?si=zBjHS6rBTgTFL0cb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
 
-PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compatible HB, unknow compactibility for ps2 soft only models), PS4(Homebrew enabled)    
+## PATCHES V2 FOR PCSX2, PS2, PS3(Backward Compatible HB, unknow compactibility for ps2 soft only models), PS4(Homebrew enabled)    
 By felixthecat1970    
 
 Patches 4:3 (original game tv format) recomended for Old square tvs, CRT and similar    
 Patches 16:9 with widescreed patch for modern TVs (warning many game assets are streched, or partial missing geometry in sides)      
 Optional ps4pkg config build available *not available for Saint Seiya - The Sanctuary (Europe)    
 
-How to install:    
+## How to install:    
 Verify you game dump ISO sha1 hash before start, rename to redump filename or follow instructions in pach.    	
 
-##DOWNLOADS:(RECOMENDED)  
+## DOWNLOADS:(RECOMENDED)  
 
 !!Warning!! patch modifies parameters shared by memory card saves if you using a save prgress, in test if you have already save , game take memory card save data by default (all character patch unlock will not work)
 before test or use  make a bakup\copy of your save game for prevent undesired data loss
