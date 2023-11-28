@@ -62,10 +62,9 @@ sha1: f7009062d4a685a4adbd313fc7f79e1ad058652a
 +unlock 60fps (consoles 30 - 60 variable)
 +unlock all chara for versus gameplays
 
-Saint Seiya - Sanctuary (Japan)-patch(4.3).7z
-https://www.mediafire.com/file/3268rh...
-Saint Seiya - Sanctuary (Japan)-patch(16.9).7z
-https://www.mediafire.com/file/souomk...
+[Saint Seiya - Sanctuary (Japan)-patch(4.3).7z](https://www.mediafire.com/file/3268rhtveu5o9ik/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%25284.3%2529.7z/file)
+[Saint Seiya - Sanctuary (Japan)-patch(16.9).7z](https://www.mediafire.com/file/souomkfw167u5d9/Saint_Seiya_-_Sanctuary_%2528Japan%2529-patch%252816.9%2529.7z/file)
+
 
 -----------------------------------------------------------------------------------------------------------
 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) -4:3 SLES-53201
@@ -74,9 +73,9 @@ sha1: 919baf4e53ed2838181d1ee9de88be9ef51ee8e7
 +unlock all chara for versus gameplays
 -disabled patch NTSC, video intro and 60fps due a bug (in gameplay you can't make combos hits)
 
-Saint Seiya - The Sanctuary (Europe)-patch(4.3).7z
-https://www.mediafire.com/file/bmwx10...
--patch not available for intro, NTSC, 60fps  -japanese version works ok,.. but japnaese only--- because bug in gameplay (you can't make combo hits), NTSC and 60fps codes for PCSX2 are available in github repo.
+[Saint Seiya - The Sanctuary (Europe)-patch(4.3).7z](https://www.mediafire.com/file/bmwx101813v1h3j/Saint_Seiya_-_The_Sanctuary_%2528Europe%2529-patch%25284.3%2529.7z/file)
+
+-patch not included for intro, NTSC, 60fps  -japanese version works ok,.. but japnaese only--- because bug in gameplay (you can't make combo hits), NTSC and 60fps codes for PCSX2 are available in github repo.
 
 -----------------------------------------------------------------------------------------------------------
 Saint Seiya - Meiou Hades Juunikyuu-hen (Japan) SLPS-25744
@@ -85,12 +84,10 @@ sha1: fdd7b2169f2bb687778d358a53609664f92694fd
 +unlock 60fps (consoles 30 - 60 variable)
 +unlock all chara for versus gameplays
 
-Saint Seiya - The Hades (Japan)-patch(4.3).7z (multi-lang unlocked)
-https://www.mediafire.com/file/bgu34t...
-Saint Seiya - The Hades (Japan)-patch(16.9).7z (multi-lang unlocked)
-https://www.mediafire.com/file/hw0r77...
-Saint Seiya - The Hades (Japan)-patch-JAP(4.3).7z (japanese only)
-https://www.mediafire.com/file/s2bzh5...
+[Saint Seiya - The Hades (Japan)-patch(4.3).7z (multi-lang unlocked)](https://www.mediafire.com/file/s2bzh536kwyi5be/Saint_Seiya_-_The_Hades_%2528Japan%2529-patch%25284.3%2529.7z/file)
+[Saint Seiya - The Hades (Japan)-patch(16.9).7z (multi-lang unlocked)](https://www.mediafire.com/file/hw0r77ikecoxiys/Saint_Seiya_-_The_Hades_%2528Japan%2529-patch%252816.9%2529.7z/file)
+[Saint Seiya - The Hades (Japan)-patch-JAP(4.3).7z (japanese only)](https://www.mediafire.com/file/bgu34tn58zuhx7k/Saint_Seiya_-_The_Hades_%2528Japan%2529-patch-JAP%25284.3%2529.7z/file)
+
 
 -------------------------------------------------------------------------------------------------------------
 Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) SLES-54162
@@ -100,10 +97,9 @@ sha1: 6da748b0a966a884fc08b3d0d56ffb1bf51848c7
 +unlock 60fps (consoles 30 - 60 variable)
 +unlock all chara for versus gameplays
 
-Saint Seiya - The Hades (Europe)-PATCH(4.3).7z
-https://www.mediafire.com/file/rvc8on...
-Saint Seiya - The Hades (Europe)-PATCH(16.9)
-https://www.mediafire.com/file/g2jw45...
+[Saint Seiya - The Hades (Europe)-PATCH(4.3).7z](https://www.mediafire.com/file/rvc8onjmckezyhy/Saint_Seiya_-_The_Hades_%2528Europe%2529-PATCH%25284.3%2529.7z/file)
+[Saint Seiya - The Hades (Europe)-PATCH(16.9)](https://www.mediafire.com/file/g2jw45swfv843hj/Saint_Seiya_-_The_Hades_%2528Europe%2529-PATCH%252816.9%2529.7z/file)
+
 ---------------------------------------------------------------------------------------------------------------
 
 
