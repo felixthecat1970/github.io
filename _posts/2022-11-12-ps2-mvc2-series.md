@@ -37,7 +37,7 @@ learning more about GS deveplopment and implementation trying understand how the
 -PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes   
 
 ## DOWNLOAD PATCH 
-Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023 
+Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023     
 [PS2(progressive scan setup), PS3, PS4, PC patch](https://www.mediafire.com/file/pr5m683btpkhzu8/Marvel_vs._Capcom_2_%2528USA%2529-patch.7z/file)  
 [PS2(crt - interlaced tv setup) patch](https://www.mediafire.com/file/ifmkd1cy2g00txt/Marvel_vs._Capcom_2_%2528USA%2529-PATCHcrt.7z/file)   
 
