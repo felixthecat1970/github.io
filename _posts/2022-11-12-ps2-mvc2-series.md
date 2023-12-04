@@ -32,18 +32,20 @@ This is my code finds, ideas, information, experiments, deduction in a empirical
 learning more about GS deveplopment and implementation trying understand how the ps2 games pass parameters for the common "full frame mode" and "field renderer" modes and finding "partial" clues how is handled by ps2 so some couple months ago when have "freetime" debugging Mvc2 i find disabled some variables related to it (this game originaly was coded in field rendered mode 640x224) giving the low res blurry image frame common in this games when present frame in "field rendered mode" and giving bad reputation that time; after analizing the mips code to find exist a variable who call the full frame mode giving full frame mode 640x448 and disabling blurry image also can call the 640x480 (arcade specs) sadly missing other "unknow variables" so the image look moved to button or upper position, still 448 mode looks ok loss only 16px up 16px down but when progressive native mode is called match correctly screen given a horizontal match 3:2 progressive frame image (i think is correcly named); UPDATED NOV 2023, download patch 
 
 ## Marvel vs. Capcom 2 - New Age of Heroes (USA) Updated December 2023
--Change game engine to full frame mode 640x448 with progressive scan mode (default is 640x224 field rendered mode) 
--Unlocked all chara, for vs modes
--PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes
+-Change game engine to full frame mode 640x448 with progressive scan mode (default is 640x224 field rendered mode)    
+-Unlocked all chara, for vs modes   
+-PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes   
 
 ## DOWNLOAD PATCH 
-Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023
+Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023 
+[PS2(progressive scan setup), PS3, PS4, PC patch](https://www.mediafire.com/file/pr5m683btpkhzu8/Marvel_vs._Capcom_2_%2528USA%2529-patch.7z/file)  
+[PS2(crt - interlaced tv setup) patch](https://www.mediafire.com/file/ifmkd1cy2g00txt/Marvel_vs._Capcom_2_%2528USA%2529-PATCHcrt.7z/file)   
 
-## OTHER GAMES CODES:
-Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 (old code PNACHavailable in git repo)
-Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (old code PNACH available in git repo)
+## OTHER VERSIONS CODES (OLD):
+Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 (old code PNACH available in git repo)      
+Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (old code PNACH available in git repo)        
 
-- +Enable Full Frame Mode 640x448 (instead common 640x224)
+- +Enable Full Frame Mode 640x448 (instead common 640x224)   
 - +Autoboot - Enable Progressive Scan video mode (ps2 consoles need progressive scan tv setup - for composite setups search "composite" available in repository)
 - +Interlacing is disabled in progressive mode and frame mode
 - +PAL version (Des-Pal-lettized) remove selector and run always in progressive scan
@@ -56,8 +58,7 @@ Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14
 ## HOW TO USE:
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
-[Click here and look for CODE > DOWNLOAD ZIP or search in folders](https://github.com/felixthecat1970/gamepatches)  
-open downloaded .zip file, navigate to Playstation 2 folder, copy files and folders to your default PCX2-QT emulator or search repository the XXXXXXXXX.pnach files cheats-gameconfigs and copy folders in emulator
+search github repository for game name and XXXXXXXXX.pnach files cheats-gameconfigs and copy folders in emulator
 !!! Beware this will overwrite any custom cheats/gameconfigs you have previusly for the game in your PCSX2 folder. !!! 
 Enable "Cheats" option in emulator and run your game.
 
