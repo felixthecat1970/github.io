@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "PS2 Marvel vs. Capcom 2: New Age of Heroes full frame mode and PS2 > PS4 test build guide"
+title: "PS2 Marvel vs. Capcom 2: New Age of Heroes PATCH full frame mode and PS2 > PS4 test build"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -23,17 +23,25 @@ Marvel vs. Capcom 2: New Age of Heroes is a crossover fighting game developed an
 More info Marvel vs Capcom 2 series: [Wikipedia](https://en.wikipedia.org/wiki/Marvel_vs._Capcom_2:_New_Age_of_Heroes) 
 learn how to play it [Wiki Supercombo link](https://wiki.supercombo.gg/w/Marvel_vs_Capcom_2)
 
+## UPDATED DECEMBER 2023
+
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can someway understand. 
 
 ## CODE NOTES - STORIES:
-learning more about GS deveplopment and implementation trying understand how the ps2 games pass parameters for the common "full frame mode" and "field renderer" modes and finding "partial" clues how is handled by ps2 so some couple months ago when have "freetime" debugging Mvc2 i find disabled some variables related to it (this game originaly was coded in field rendered mode 640x224) giving the low res blurry image frame common in this games when present frame in "field rendered mode" and giving bad reputation that time; after analizing the mips code to find exist a variable who call the full frame mode giving full frame mode 640x448 and disabling blurry image also can call the 640x480 (arcade specs) sadly missing other "unknow variables" so the image look moved to button or upper position, still 448 mode looks ok loss only 16px up 16px down but when progressive native mode is called match correctly screen given a horizontal match 3:2 progressive frame image (i think is correcly named); by the way i upload a test builds for run in PS4 (9.00 homebrew enabled consoles only) in HD mode visit my twitter for links.
+learning more about GS deveplopment and implementation trying understand how the ps2 games pass parameters for the common "full frame mode" and "field renderer" modes and finding "partial" clues how is handled by ps2 so some couple months ago when have "freetime" debugging Mvc2 i find disabled some variables related to it (this game originaly was coded in field rendered mode 640x224) giving the low res blurry image frame common in this games when present frame in "field rendered mode" and giving bad reputation that time; after analizing the mips code to find exist a variable who call the full frame mode giving full frame mode 640x448 and disabling blurry image also can call the 640x480 (arcade specs) sadly missing other "unknow variables" so the image look moved to button or upper position, still 448 mode looks ok loss only 16px up 16px down but when progressive native mode is called match correctly screen given a horizontal match 3:2 progressive frame image (i think is correcly named); UPDATED NOV 2023, download patch 
 
+## Marvel vs. Capcom 2 - New Age of Heroes (USA) Updated December 2023
+-Change game engine to full frame mode 640x448 with progressive scan mode (default is 640x224 field rendered mode) 
+-Unlocked all chara, for vs modes
+-PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes
 
-## GAMES CODES:
-Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 
-Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 
-Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (updated) 
+## DOWNLOAD PATCH 
+Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023
+
+## OTHER GAMES CODES:
+Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 (old code PNACHavailable in git repo)
+Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (old code PNACH available in git repo)
 
 - +Enable Full Frame Mode 640x448 (instead common 640x224)
 - +Autoboot - Enable Progressive Scan video mode (ps2 consoles need progressive scan tv setup - for composite setups search "composite" available in repository)
@@ -44,10 +52,7 @@ Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14
 - +ADD PCSX2 gamesettings profiles with recomended settings
 !!! for better image in PCSX2 emulator disable Dithering option for sharper image and use 2x+=> scaling options
 
-**Codes included in .zip download or direct search in github repository in next steps.
-
-This codes enable best image mode support PCSX2-QT emulator and PS2/PS3/PS4 Consoles, keep in mind tested (PC / PS4) but unknow if works ok in longplays.
-
+## LEGACY INSTRUCTIONS FOR ADVANCED USERS
 ## HOW TO USE:
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
