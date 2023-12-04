@@ -33,15 +33,15 @@ learning more about GS deveplopment and implementation trying understand how the
 
 ## Marvel vs. Capcom 2 - New Age of Heroes (USA) Updated December 2023
 -Change game engine to full frame mode 640x448 with progressive scan mode (default is 640x224 field rendered mode)    
--Unlocked all chara, for vs modes   
+-Unlocked all characters, for vs modes   
 -PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes   
 
-## DOWNLOAD PATCH 
+## DOWNLOAD PATCH (recommended)
 Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x49209767 V2 updated patch DIC 2023     
-[PS2(progressive scan setup), PS3, PS4, PC patch](https://www.mediafire.com/file/pr5m683btpkhzu8/Marvel_vs._Capcom_2_%2528USA%2529-patch.7z/file)  
-[PS2(crt - interlaced tv setup) patch](https://www.mediafire.com/file/ifmkd1cy2g00txt/Marvel_vs._Capcom_2_%2528USA%2529-PATCHcrt.7z/file)   
+[PS2 progressive scan setup, PS3, PS4, PC patch](https://www.mediafire.com/file/pr5m683btpkhzu8/Marvel_vs._Capcom_2_%2528USA%2529-patch.7z/file)  
+[PS2 CRT - interlaced tv setup patch](https://www.mediafire.com/file/ifmkd1cy2g00txt/Marvel_vs._Capcom_2_%2528USA%2529-PATCHcrt.7z/file)   
 
-## OTHER VERSIONS CODES (OLD):
+## OTHER VERSIONS CODES (OLD CODES):
 Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 (old code PNACH available in git repo)      
 Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (old code PNACH available in git repo)        
 
