@@ -31,7 +31,9 @@ This is my code finds, ideas, information, experiments, deduction in a empirical
 ## CODE NOTES - STORIES:
 learning more about GS deveplopment and implementation trying understand how the ps2 games pass parameters for the common "full frame mode" and "field renderer" modes and finding "partial" clues how is handled by ps2 so some couple months ago when have "freetime" debugging Mvc2 i find disabled some variables related to it (this game originaly was coded in field rendered mode 640x224) giving the low res blurry image frame common in this games when present frame in "field rendered mode" and giving bad reputation that time; after analizing the mips code to find exist a variable who call the full frame mode giving full frame mode 640x448 and disabling blurry image also can call the 640x480 (arcade specs) sadly missing other "unknow variables" so the image look moved to button or upper position, still 448 mode looks ok loss only 16px up 16px down but when progressive native mode is called match correctly screen given a horizontal match 3:2 progressive frame image (i think is correcly named); UPDATED NOV 2023, download patch 
 
-## Marvel vs. Capcom 2 - New Age of Heroes (USA) Updated December 2023
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tJW03eDIrpA?si=Kc3Qe1qxB-CGOGM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+## Marvel vs. Capcom 2 - New Age of Heroes (USA) V2 Updated December 2023
 -Change game engine to full frame mode 640x448 with progressive scan mode (default is 640x224 field rendered mode)    
 -Unlocked all characters, for vs modes   
 -PS4build include arcade joystick compatibility (not fully tested), aspect ratio correction, more clean pixel mode, scanlines, smooth modes   
@@ -41,7 +43,7 @@ Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x492097
 [PS2 progressive scan setup, PS3, PS4, PC patch](https://www.mediafire.com/file/pr5m683btpkhzu8/Marvel_vs._Capcom_2_%2528USA%2529-patch.7z/file)  
 [PS2 CRT - interlaced tv setup patch](https://www.mediafire.com/file/ifmkd1cy2g00txt/Marvel_vs._Capcom_2_%2528USA%2529-PATCHcrt.7z/file)   
 
-## OTHER VERSIONS CODES (OLD CODES):
+## OTHER VERSIONS CODES (PNACH OLD CODES):
 Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8 (old code PNACH available in git repo)      
 Marvel vs. Capcom 2 - New Age of Heroes (Europe) SLES_511.74;1) Game CRC = 0xD14A6CD6 (old code PNACH available in git repo)        
 
@@ -71,7 +73,7 @@ use PS2 Patch Engine PC tool by pelvicthrustman 1.03 from here: [Link](https://w
 5. if you do all correctly the app will generate a " your-game-xxxxxx_pached.iso or .bin file, use this file for load in your console or build (PS4)
 
 ### METHOD 3 - RUN IN PS4 CONSOLES GUIDE
-1. Check my twitter account for easy link build guide
+1. Check my youtube account for easy patch build guide
 
 ### TESTED setups:
 - PC: - RYZEN 3400G - VEGA 11 + PCSX2-QT-avx2 (working ok)
