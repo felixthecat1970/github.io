@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "PS2 Progressive scan custom code list online"
+title: "PS2 Improvements code, patch list online"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -9,7 +9,7 @@ tags:
   - PS2
 ---
 
-Playstation 2 custom codes list wich enable progressive scan TV mode for NTSC / PAL for consoles and emulators.
+Playstation 2 custom codes and patches list enable NTSC 60hz, 60fps, improvements etc for consoles and emulators.
 
 <!--more-->
 
@@ -18,16 +18,18 @@ Playstation 2 custom codes list wich enable progressive scan TV mode for NTSC / 
 	<figcaption>PS2 Console Models click more info</figcaption>
 </figure>
 
-Open List (updated realtime) [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
+List [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true)
 
-Custom Code list for enable progressive scan tv modes in NTSC / PAL games or PAL > NTSC with correct screen size and speed logic, also official compactible games (not need for selector options in game, combo button or weird combo button combinations, GSM or similar hdtv hombrew apps); codes enable autobooting Progressive scan tv mode or NTSC (in some PAL only games).
+Updated 2023, (still updating and cleannning, old codes are removed) Playstation 2 custom codes and patches list enable NTSC 60hz, 60fps, improvements etc for consoles and emulators.
 
 ## Disclaimer:
 This is my code finds, ideas, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end will help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can "someway" understand. 
 
 Code Notes Stories in the end post jump [Link](https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/ps2-progressive-scan-list/#code-notes---stories)
 
-## HOW TO USE:
+read recomended isntructions for PNACH (emulator) files or easy use direct PATCH when available. 
+
+## HOW TO USE (NEXT IS LEGACY METHOD FOR ADVANCED USERS):
 
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT":
 1. Look game name you want
