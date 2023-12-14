@@ -9,7 +9,7 @@ tags:
   - PS2
 ---
 
-Playstation 2 custom codes and patches list enable NTSC 60hz, 60fps, improvements etc for consoles and emulators.
+Playstation 2 custom codes and patches list enable progressive scan, PAL to NTSC 60hz, 60fps, other improvements etc for consoles and emulators.
 
 <!--more-->
 
