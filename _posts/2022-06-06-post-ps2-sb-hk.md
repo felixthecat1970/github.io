@@ -25,7 +25,14 @@ More info Sengoku Basara X game: [Wikia](https://sengokubasara.fandom.com/wiki/S
 ## Disclaimer:
 This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering, for more tecnical approach i leave lectures in the end who help understand more, the next stories are related in a friendly, free, uncared manner for friends and people can someway understand. 
 
-## CODE NOTES - STORIES:
+
+##UPDATED CODES 2023
+Check [PS2-ProgressiveScan-Improvements-patches-codes](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true) for updated codes PNACH and direct ISO patch app.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCxz0BSm_8E?si=h9WbWVLQe5g1NeNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## CODE NOTES - STORIES (Legacy):
 looking in pcsx2 debugger a bunch of numbers, letters combined program language named "MIPS" which is cpu architecture for ps2 cpu, for improve a peculiar common standard for ps2 games resolutions:
 
 - 640x468 ntsc - 512x468 ntsc at 59.940hz 
@@ -58,27 +65,14 @@ Hokuto no ken has a interesting thing is the english language available in game 
 
 In the end keep mind this codes are not perfect or maybe can have better code call function - register in future (special cases for tekken 5 japan/usa/pal version wich would be my stories); also the possiblity game crash long run (still testing now, so consider a beta releases), PS2 OPL GSM updates are the best solution till now if you are test 480p and not like to wait (links end of article) or wait i will publishing my code findings in this blog.
 
-## GAMES CODES:
+## GAMES CODES (LEGACY INFO FROM HERE):
 ### Sengoku Basara X (戦国BASARA X) SLPM_550.08;1) Game CRC = 0x721DEBE4 v1
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
 - +No interleacing (of course sdtv mode call disable it)
 - +640x480 pixels-lines enabled (instead default 640x448) more viewable area, also Integer scaling (still untested)
 - *recomended disable pcsx2 > graphics > shader "texture filtering display" for more pixel art image (more clean image)
 - *recomended auto-profiles file for PCSX2-QT included in download
-- *v1 disable antialias option by default because not necessary and causes bugs
-
-```
-gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
-comment=480p native sdtv mode unlock + extend resolution 640x480 v4 by felixthecat1970
-
-//480p + 640x480 res. v4
-patch=0,EE,201004E4,extended,A2620016
-patch=0,EE,2010CF00,extended,0000202D
-patch=0,EE,001EA6B4,extended,24060000
-patch=0,EE,20386720,extended,002A0640
-patch=0,EE,20386740,extended,002A0640
-patch=0,EE,002A0550,extended,24020000
-```
+- *v3 updated 2023 december check begin this post for links
 
 ### Hokuto no Ken - Shinpan no Sousousei - Kengou Retsuden 北斗の拳 審判の双蒼星 拳豪列伝 (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454 v1
 - +Autoboot - Enable Native Progressive Scan video mode (call-function)
@@ -86,22 +80,10 @@ patch=0,EE,002A0550,extended,24020000
 - +640x480 pixels-lines enabled (instead default 640x448) more viewable area, also Integer scaling (still untested)
 - *recomended disable pcsx2 > graphics > shader "texture filtering display" for more pixel art image (more clean image)
 - *recomended auto-profiles file for PCSX2-QT included in download
-- *v1 disable antialias option by default because not necessary and causes bugs
+- *v3 updated 2023 december check begin this post for links
  
-```
-gametitle=Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) SLPM_666.60;1) Game CRC = 0x9E8F0454
-comment=Native 480p sdtv mode + extend 640x480 v4 by felixthecat1970
 
-//480p sdtv mode + 640x480
-patch=0,EE,20292720,extended,A38286E8
-patch=0,EE,202ACA50,extended,0000102D
-patch=0,EE,202B3EB8,extended,0000102D
-patch=0,EE,202B4068,extended,0000102D
-patch=0,EE,002B3D38,extended,24060000
-
-```
-
-This codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use/test 4:3 display - integer scaling - screen offset settings) learn more about integer scaling [HERE](https://tanalin.com/en/articles/integer-scaling/)
+PNACH codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use/test 4:3 display - integer scaling - screen offset settings) learn more about integer scaling [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
 ## HOW TO USE:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT": 
