@@ -85,9 +85,9 @@ In the end keep mind this codes are not perfect or maybe can have better code ca
 
 PNACH codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use/test 4:3 display - integer scaling - screen offset settings) learn more about integer scaling [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
-## HOW TO USE:
+## HOW TO USE LEGACY FOR ADVANCED USERS:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT": 
-[Click here and look for CODE > DOWNLOAD ZIP](https://github.com/felixthecat1970/gamepatches)  
+Check github repository for updated PNACH files
 open downloaded file, navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
 !!! this will overwrite any custom cheats/gameconfigs for the game in your PCSX2 folder. !!!  
 also you can download .pnach files directly from PCSX2 forums post [HERE](https://forums.pcsx2.net/Thread-No-interlacing-codes?pid=627268#pid627268)
