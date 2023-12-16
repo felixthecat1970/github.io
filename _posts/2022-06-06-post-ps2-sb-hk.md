@@ -31,6 +31,7 @@ Check [PS2-ProgressiveScan-Improvements-patches-codes](https://docs.google.com/s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zCxz0BSm_8E?si=h9WbWVLQe5g1NeNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNYGSTXWLS0?si=kBxBpsCrcjGw3L9T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## CODE NOTES - STORIES (Legacy):
 looking in pcsx2 debugger a bunch of numbers, letters combined program language named "MIPS" which is cpu architecture for ps2 cpu, for improve a peculiar common standard for ps2 games resolutions:
@@ -85,7 +86,7 @@ In the end keep mind this codes are not perfect or maybe can have better code ca
 
 PNACH codes enable best image mode support for PCSX2-QT emulator and PS2/PS3/PS4 Consoles, also you can test the correct pixel aspect ratios for "Integer Scaling" 2d (in pc emulation use/test 4:3 display - integer scaling - screen offset settings) learn more about integer scaling [HERE](https://tanalin.com/en/articles/integer-scaling/)
 
-## HOW TO USE LEGACY FOR ADVANCED USERS:
+## HOW TO USE LEGACY FOR ADVANCED USERS, for newest patch check start this post:
 ### METHOD 1 - DOWNLOAD CODE FILES FOR PC EMULATOR "PCSX2-QT": 
 Check github repository for updated PNACH files
 open downloaded file, navigate to Playstation 2 foler, copy files and folders from "Assault Suits Valken (Japan) (Europe)" to your default PCX2-QT emulator  
