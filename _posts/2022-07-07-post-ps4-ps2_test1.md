@@ -9,7 +9,7 @@ tags:
   - PS4
 ---
 
-Here you will find basic instruction how to patch your PS2 games for run in PS4 (Homebrew enabled console).
+Here you will find basic tools steps how to patch your PS2 games for run in PS4 (Homebrew enabled console).
 
 <!--more-->
 
@@ -24,12 +24,12 @@ keep in mind PS4 > PS2 emulation still is experimental expec bugs, problems etc,
 
 ## WHAT TOOLS YOU NEEED?
 
-1-PS4 Hombrew enabled console (till 2023 only models firmware 9.00 and backwards are compactible)
-2-PC with windows OS 10 / 11
-3-Have already you PS2 .iso or .bin/.cue game dump
-4-My update [codes - patch list online](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true) Look PNACH files for codes
-5-optional Tool for patch PS2 games [PS2 Patch engine by pelvicthrustman](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/) patch games with codes for easy life.
-6-Download new tool for convert Ps2 games to PS4 instalable PKG [PS2-FPKG v0.7-Beta by Jabu](https://www.psx-place.com/threads/release-ps2-fpkg-v0-7-beta-a-complete-rewrite-of-my-ps2-to-ps4-converter.41916/#post-374371)
+1-PS4 Hombrew enabled console (till 2023 only models firmware 9.00 and backwards are compactible)  
+2-PC with windows OS 10 / 11  
+3-Have already you PS2 .iso or .bin/.cue game dump  
+4-My update [codes - patch list online](https://docs.google.com/spreadsheets/d/e/2PACX-1vQK9yHshfnqIwf66Xb0MIG_hJ44fhPuBByI7jE8-OGSC1M63CN-bPFUbwBu9AUpl9n1wlt3oqIxcgEC/pubhtml?gid=0&single=true) Look PNACH files for codes  
+5-optional Tool for patch PS2 games [PS2 Patch engine by pelvicthrustman](https://www.psx-place.com/resources/ps2-patch-engine-by-pelvicthrustman.694/) patch games with codes for easy life.  
+6-Download new tool for convert Ps2 games to PS4 instalable PKG [PS2-FPKG v0.7-Beta by Jabu](https://www.psx-place.com/threads/release-ps2-fpkg-v0-7-beta-a-complete-rewrite-of-my-ps2-to-ps4-converter.41916/#post-374371)   
 
 Following steps and some luck you game will work, but if not you need customs configs, lua patches etc, check advised forum [Research PS2 emulator configuration on PS4](https://www.psx-place.com/threads/research-ps2-emulator-configuration-on-ps4.16131/) for help, configs etc.
 
