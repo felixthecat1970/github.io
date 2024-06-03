@@ -51,9 +51,9 @@ Requirements:
 -Patch file: PATCH-PXZ2_OGSE_GER-SPA-ENGb1.7z  
  Link: (uploading.....)  
 
-3ds console with Homebrew enabled guide > https://3ds.hacks.guide/ or PC emulator app citra / lime  
+3ds console with Homebrew enabled [guide](https://3ds.hacks.guide/) or PC emulator app citra / lime  
 3ds Fbi homebrew for .cia install or similar app  
-7z decompressor program for unpack patch. more info here > https://www.7-zip.org/7z.html  
+7z decompressor program for unpack patch. [more info here](https://www.7-zip.org/7z.html)  
 	
 Install:   
 
@@ -97,9 +97,9 @@ No time for spend debbuging other files, now searching for a job....
 ### RECOMENDED LECTURES THANKS TO:  
 - Title of article: Nintendo 3DS Architecture - A Practical Analysis  
   - Author: Rodrigo Copetti  
-  - URL: https://www.copetti.org/writings/consoles/nintendo-3ds/  
+  - URL: [web site official](https://www.copetti.org/writings/consoles/nintendo-3ds/)  
   - Date of publication: September 16, 2023  
   - Last modified: April 30, 2024  
 	
 - 3DS ROM Guides   
-  - Read 3DS ROM Guides in (https://github.com/ihaveamac/3DS-rom-tools/wiki)  
+  - Read [3DS ROM Guides](https://github.com/ihaveamac/3DS-rom-tools/wiki) 
