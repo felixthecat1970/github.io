@@ -34,11 +34,11 @@ Demo gameplay: (no forget change youtube quality to 1080p/60fps)
 [gamefaqs release info](https://gamefaqs.gamespot.com/3ds/146043-project-x-zone-2/data)  
 
 Patch v2 by felixthecat1970:  
-+Optional Patch for (BASE) build to English or German or Spanish Language with 1.2update "b1 language patch"
-+Special edition original sound BGM in options for patched languages (unavailable in international versions)
--japanese version has not subtitled battle voices option implemented, so no available other langs
-+Bonus DLC install file (available menu options from chapter 1)
--Base Build file with update 1.2 merged
++Optional Patch for (BASE) build to English or German or Spanish Language with 1.2update "b1 language patch"  
++Special edition original sound BGM in options for patched languages (unavailable in international versions)  
+-japanese version has not subtitled battle voices option implemented, so no available other langs  
++Bonus DLC install file (available menu options from chapter 1)  
+-Base Build file with update 1.2 merged  
 
 Notes "b1 language patch":  
 Japanese version has more updated files that other version, some diferent scripted files, and characters data give potential bugs, unstranslated parts or crashes, consider lang patch as beta (only tested till chapter 1 ongoing...).    
@@ -48,9 +48,9 @@ Many years ago i want to play this game version with original BGM but was japane
 Requirements:  
 -Base Build file: PXZ-2-OGSE (JPN) (V1.2) (BASE)  
  sha1:03908C3DF4F8665BF48D0F15A1C50AA4C9B52F43  
- [link Download:](https://www.mediafire.com/file/ntmrsgyzx0ijd0q/PXZ-2-OGSE_%2528JPN%2529_%2528V1.2%2529_%2528BASE%2529.7z/file)
--Patch file: PATCH-PXZ2_OGSE_GER-SPA-ENGb1.7z  
- Link: (uploading.....)  
+ [link Download](https://www.mediafire.com/file/ntmrsgyzx0ijd0q/PXZ-2-OGSE_%2528JPN%2529_%2528V1.2%2529_%2528BASE%2529.7z/file)  
+-Patch file: PATCH-PXZ2_OGSE_GER-SPA-ENGb1.7z    
+ [Link](https://github.com/felixthecat1970/gamepatches/blob/main/3ds/Project_X_Zone_2_Orginal_game_edition/PATCH-PXZ2_OGSE_GER-SPA-ENGb1.7z)   
 
 3ds console with Homebrew enabled [guide](https://3ds.hacks.guide/) or PC emulator app citra / lime  
 3ds Fbi homebrew for .cia install or similar app  
